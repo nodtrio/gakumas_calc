@@ -1,0 +1,16 @@
+{
+  "id": "policy-midterm-60000",
+  "name": "Midterm 60000",
+  "description": "MVP example policy that assumes exam outputs are capped around 60 percent.",
+  "examScoreAssumption": {
+    "mode": "fixed-rate",
+    "scoreRate": 0.6
+  },
+  "scoring": {
+    "baseCardWeight": 1,
+    "trainingWeight": 1.25,
+    "examWeight": 1,
+    "synergyWeight": 1,
+    "stageFitWeight": 1
+  }
+}

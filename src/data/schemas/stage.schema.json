@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "stage.schema.json",
+  "title": "Stage",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "description", "weights", "examWeights", "tagWeights"],
+  "properties": {
+    "id": { "type": "string" },
+    "name": { "type": "string" },
+    "description": { "type": "string" },
+    "weights": { "$ref": "#/$defs/statBlock" },
+    "examWeights": { "$ref": "#/$defs/examStatBlock" },
+    "tagWeights": {
+      "type": "object",
+      "additionalProperties": { "type": "number" }
+    }
+  },
+  "$defs": {
+    "statBlock": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["vocal", "dance", "visual", "mental"],
+      "properties": {
+        "vocal": { "type": "number" },
+        "dance": { "type": "number" },
+        "visual": { "type": "number" },
+        "mental": { "type": "number" }
+      }
+    },
+    "examStatBlock": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["vocal", "dance", "visual"],
+      "properties": {
+        "vocal": { "type": "number" },
+        "dance": { "type": "number" },
+        "visual": { "type": "number" }
+      }
+    }
+  }
+}

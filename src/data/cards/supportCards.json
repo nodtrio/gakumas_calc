@@ -1,0 +1,170 @@
+[
+  {
+    "id": "sp-vocal-001",
+    "name": "Spark Vocal Theory",
+    "rarity": "SSR",
+    "type": "vocal",
+    "baseScore": 84,
+    "trainingBonus": {
+      "vocal": 20,
+      "dance": 4,
+      "visual": 0,
+      "mental": 6
+    },
+    "examBonus": {
+      "vocal": 14,
+      "dance": 0,
+      "visual": 0
+    },
+    "tags": ["lesson", "consistency", "vocal-core"],
+    "synergyTags": ["lesson", "vocal-core"],
+    "description": "Stable vocal training output and exam conversion."
+  },
+  {
+    "id": "sp-vocal-002",
+    "name": "Rhythm Cheer",
+    "rarity": "SR",
+    "type": "vocal",
+    "baseScore": 69,
+    "trainingBonus": {
+      "vocal": 12,
+      "dance": 2,
+      "visual": 0,
+      "mental": 8
+    },
+    "examBonus": {
+      "vocal": 7,
+      "dance": 0,
+      "visual": 0
+    },
+    "tags": ["support", "stability"],
+    "synergyTags": ["support", "lesson"],
+    "description": "Raises vocal practice value while smoothing stamina usage."
+  },
+  {
+    "id": "sp-dance-001",
+    "name": "Step by Step Beat",
+    "rarity": "SSR",
+    "type": "dance",
+    "baseScore": 82,
+    "trainingBonus": {
+      "vocal": 2,
+      "dance": 19,
+      "visual": 3,
+      "mental": 5
+    },
+    "examBonus": {
+      "vocal": 0,
+      "dance": 15,
+      "visual": 0
+    },
+    "tags": ["lesson", "dance-core"],
+    "synergyTags": ["dance-core", "lesson"],
+    "description": "High-value dance practice card with strong exam carryover."
+  },
+  {
+    "id": "sp-dance-002",
+    "name": "Backstage Tempo",
+    "rarity": "SR",
+    "type": "dance",
+    "baseScore": 70,
+    "trainingBonus": {
+      "vocal": 1,
+      "dance": 14,
+      "visual": 4,
+      "mental": 9
+    },
+    "examBonus": {
+      "vocal": 0,
+      "dance": 8,
+      "visual": 0
+    },
+    "tags": ["support", "recovery"],
+    "synergyTags": ["support", "dance-core"],
+    "description": "Reliable dance gains plus moderate recovery support."
+  },
+  {
+    "id": "sp-visual-001",
+    "name": "Color Framing",
+    "rarity": "SSR",
+    "type": "visual",
+    "baseScore": 80,
+    "trainingBonus": {
+      "vocal": 0,
+      "dance": 3,
+      "visual": 21,
+      "mental": 4
+    },
+    "examBonus": {
+      "vocal": 0,
+      "dance": 0,
+      "visual": 13
+    },
+    "tags": ["visual-core", "burst"],
+    "synergyTags": ["visual-core", "burst"],
+    "description": "Excellent visual scaling with burst-oriented synergy hooks."
+  },
+  {
+    "id": "sp-visual-002",
+    "name": "Prism Notes",
+    "rarity": "SR",
+    "type": "visual",
+    "baseScore": 68,
+    "trainingBonus": {
+      "vocal": 0,
+      "dance": 2,
+      "visual": 15,
+      "mental": 8
+    },
+    "examBonus": {
+      "vocal": 0,
+      "dance": 0,
+      "visual": 7
+    },
+    "tags": ["support", "visual-core"],
+    "synergyTags": ["support", "visual-core"],
+    "description": "Balanced visual support that keeps deck flexibility high."
+  },
+  {
+    "id": "sp-mental-001",
+    "name": "Calm Routine",
+    "rarity": "SSR",
+    "type": "mental",
+    "baseScore": 77,
+    "trainingBonus": {
+      "vocal": 3,
+      "dance": 3,
+      "visual": 3,
+      "mental": 18
+    },
+    "examBonus": {
+      "vocal": 2,
+      "dance": 2,
+      "visual": 2
+    },
+    "tags": ["recovery", "consistency"],
+    "synergyTags": ["support", "recovery"],
+    "description": "Broad utility card that stabilizes long runs."
+  },
+  {
+    "id": "sp-mental-002",
+    "name": "Focus Control",
+    "rarity": "SR",
+    "type": "mental",
+    "baseScore": 64,
+    "trainingBonus": {
+      "vocal": 4,
+      "dance": 4,
+      "visual": 4,
+      "mental": 12
+    },
+    "examBonus": {
+      "vocal": 1,
+      "dance": 1,
+      "visual": 1
+    },
+    "tags": ["recovery", "stability"],
+    "synergyTags": ["support", "consistency"],
+    "description": "Low ceiling, but helps avoid weak deck holes in MVP scoring."
+  }
+]

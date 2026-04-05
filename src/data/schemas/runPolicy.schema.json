@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "runPolicy.schema.json",
+  "title": "RunPolicy",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "description", "examScoreAssumption", "scoring"],
+  "properties": {
+    "id": { "type": "string" },
+    "name": { "type": "string" },
+    "description": { "type": "string" },
+    "examScoreAssumption": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["mode", "scoreRate"],
+      "properties": {
+        "mode": { "type": "string", "enum": ["perfect", "fixed-rate"] },
+        "scoreRate": { "type": "number", "minimum": 0 }
+      }
+    },
+    "scoring": {
+      "$ref": "#/$defs/scoringPreset"
+    }
+  },
+  "$defs": {
+    "scoringPreset": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "baseCardWeight",
+        "trainingWeight",
+        "examWeight",
+        "synergyWeight",
+        "stageFitWeight"
+      ],
+      "properties": {
+        "baseCardWeight": { "type": "number" },
+        "trainingWeight": { "type": "number" },
+        "examWeight": { "type": "number" },
+        "synergyWeight": { "type": "number" },
+        "stageFitWeight": { "type": "number" }
+      }
+    }
+  }
+}

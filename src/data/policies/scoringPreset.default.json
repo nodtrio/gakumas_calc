@@ -1,0 +1,9 @@
+{
+  "id": "scoring-default",
+  "name": "Default Scoring Preset",
+  "baseCardWeight": 1,
+  "trainingWeight": 1.25,
+  "examWeight": 1,
+  "synergyWeight": 1,
+  "stageFitWeight": 1
+}

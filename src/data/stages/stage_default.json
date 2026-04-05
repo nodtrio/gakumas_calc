@@ -1,0 +1,23 @@
+{
+  "id": "stage-default",
+  "name": "Default Produce Stage",
+  "description": "Balanced stage used by the MVP baseline preset.",
+  "weights": {
+    "vocal": 1,
+    "dance": 1,
+    "visual": 1,
+    "mental": 0.45
+  },
+  "examWeights": {
+    "vocal": 1,
+    "dance": 1,
+    "visual": 1
+  },
+  "tagWeights": {
+    "lesson": 5,
+    "support": 3,
+    "recovery": 4,
+    "consistency": 4,
+    "burst": 2
+  }
+}

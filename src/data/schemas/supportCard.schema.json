@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "supportCard.schema.json",
+  "title": "SupportCard",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "name",
+    "rarity",
+    "type",
+    "baseScore",
+    "trainingBonus",
+    "examBonus",
+    "tags",
+    "synergyTags",
+    "description"
+  ],
+  "properties": {
+    "id": { "type": "string" },
+    "name": { "type": "string" },
+    "rarity": { "type": "string", "enum": ["R", "SR", "SSR"] },
+    "type": { "type": "string", "enum": ["vocal", "dance", "visual", "mental"] },
+    "baseScore": { "type": "number" },
+    "trainingBonus": { "$ref": "#/$defs/statBlock" },
+    "examBonus": { "$ref": "#/$defs/examStatBlock" },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "synergyTags": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "description": { "type": "string" }
+  },
+  "$defs": {
+    "statBlock": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["vocal", "dance", "visual", "mental"],
+      "properties": {
+        "vocal": { "type": "number" },
+        "dance": { "type": "number" },
+        "visual": { "type": "number" },
+        "mental": { "type": "number" }
+      }
+    },
+    "examStatBlock": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["vocal", "dance", "visual"],
+      "properties": {
+        "vocal": { "type": "number" },
+        "dance": { "type": "number" },
+        "visual": { "type": "number" }
+      }
+    }
+  }
+}
