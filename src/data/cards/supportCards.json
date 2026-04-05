@@ -1,170 +1,110 @@
 [
   {
-    "id": "sp-vocal-001",
-    "name": "Spark Vocal Theory",
+    "id": "sp-ssr-omoide-takarabako",
+    "slug": "omoide-no-takarabako-da-ne",
+    "names": { "ko": "추억의 보물상자네", "ja": "思い出の宝箱だ、ね" },
     "rarity": "SSR",
     "type": "vocal",
-    "baseScore": 84,
-    "trainingBonus": {
-      "vocal": 20,
-      "dance": 4,
-      "visual": 0,
-      "mental": 6
-    },
-    "examBonus": {
-      "vocal": 14,
-      "dance": 0,
-      "visual": 0
-    },
-    "tags": ["lesson", "consistency", "vocal-core"],
-    "synergyTags": ["lesson", "vocal-core"],
-    "description": "Stable vocal training output and exam conversion."
+    "plan": "logic",
+    "image": { "thumbnailPath": "/support-cards/sp-ssr-omoide-takarabako.svg", "alt": "추억의 보물상자네 카드 이미지" },
+    "source": { "defaultDataBasis": "max-breakthrough", "referenceUrls": ["https://seesaawiki.jp/gakumasu/d/%25A5%25B5%25A5%25DD%25A1%25BC%25A5%25C8%25A5%25AB%25A1%25BC%25A5%25C9%25C7%25BD%25CE%25CF%25C1%25E1%25B8%25AB%25C9%25BD"], "note": "위키 빠른표 기반 샘플" },
+    "raw": { "wikiQuickReference": { "typeLabel": "ｱVo", "planLabel": "ロジック", "event1": { "reward": "きみは、自慢の生徒です", "effect": "元気+5, 파라미터 상승량 증가" }, "event2": "보컬+20", "event3": "강화된 SSR 스킬 카드 추가", "abilities": [ { "slot": "アビ1", "effect": "초기 보컬 상승" }, { "slot": "アビ2", "effect": "특정 P드링크 선택지 등장 시 보컬 상승" }, { "slot": "アビ4", "effect": "시험 종료 시 보컬 상승" }, { "slot": "アビ5", "effect": "멘탈 스킬 카드 획득 시 보컬 상승" } ] }, "notes": ["한국어 이름은 나무위키 참고용 임시 번역", "4돌 기준 정규화 입력"] },
+    "limitBreak": { "defaultSelectedLevel": 4, "maxKnownLevel": 4, "statScaleByLevel": { "0": 0.84, "1": 0.89, "2": 0.93, "3": 0.97, "4": 1 }, "snapshots": { "4": { "baseScore": 86, "trainingBonus": { "vocal": 20, "dance": 0, "visual": 0, "mental": 3 }, "examBonus": { "vocal": 22, "dance": 0, "visual": 0 }, "tags": ["lesson", "logic", "vocal-core"], "synergyTags": ["lesson", "logic", "vocal-core"], "description": "초기 보컬 수치와 시험 종료 보너스가 모두 높은 보컬 로직 핵심 카드입니다." } } }
   },
   {
-    "id": "sp-vocal-002",
-    "name": "Rhythm Cheer",
-    "rarity": "SR",
+    "id": "sp-ssr-temari-recital",
+    "slug": "temari-no-recital-da-ne",
+    "names": { "ko": "테마리의 리사이틀이네", "ja": "手毬のリサイタル、だね" },
+    "rarity": "SSR",
     "type": "vocal",
-    "baseScore": 69,
-    "trainingBonus": {
-      "vocal": 12,
-      "dance": 2,
-      "visual": 0,
-      "mental": 8
-    },
-    "examBonus": {
-      "vocal": 7,
-      "dance": 0,
-      "visual": 0
-    },
-    "tags": ["support", "stability"],
-    "synergyTags": ["support", "lesson"],
-    "description": "Raises vocal practice value while smoothing stamina usage."
+    "plan": "anomaly",
+    "image": { "thumbnailPath": "/support-cards/sp-ssr-temari-recital.svg", "alt": "테마리의 리사이틀이네 카드 이미지" },
+    "source": { "defaultDataBasis": "max-breakthrough", "referenceUrls": ["https://seesaawiki.jp/gakumasu/d/%25A5%25B5%25A5%25DD%25A1%25BC%25A5%25C8%25A5%25AB%25A1%25BC%25A5%25C9%25C7%25BD%25CE%25CF%25C1%25E1%25B8%25AB%25C9%25BD"], "note": "위키 빠른표 기반 샘플" },
+    "raw": { "wikiQuickReference": { "typeLabel": "ｱVo", "planLabel": "アノマリー", "event1": { "reward": "매혹의 시선", "effect": "호감도+4" }, "event2": "보컬+20", "event3": "호감도+4", "abilities": [ { "slot": "アビ1", "effect": "보컬 퍼센트 상승" }, { "slot": "アビ2", "effect": "멘탈 스킬 카드 획득 시 보컬 상승" }, { "slot": "アビ4", "effect": "보컬 SP 레슨 종료 시 보컬 상승" }, { "slot": "アビ5", "effect": "SSR 스킬 카드 획득 시 보컬 상승" } ] }, "notes": ["한국어 이름은 나무위키 참고용 임시 번역"] },
+    "limitBreak": { "defaultSelectedLevel": 4, "maxKnownLevel": 4, "statScaleByLevel": { "0": 0.84, "1": 0.89, "2": 0.93, "3": 0.97, "4": 1 }, "snapshots": { "4": { "baseScore": 80, "trainingBonus": { "vocal": 18, "dance": 0, "visual": 0, "mental": 3 }, "examBonus": { "vocal": 17, "dance": 0, "visual": 0 }, "tags": ["lesson", "anomaly", "vocal-core"], "synergyTags": ["anomaly", "vocal-core", "good-impression"], "description": "보컬과 호감도 계열 운영을 함께 끌어올리는 어노말리 보컬 카드입니다." } } }
   },
   {
-    "id": "sp-dance-001",
-    "name": "Step by Step Beat",
+    "id": "sp-ssr-sabotteru",
+    "slug": "doudou-to-sabotteru",
+    "names": { "ko": "당당하게 땡땡이 치는 중?!", "ja": "堂々とサボってる！？" },
+    "rarity": "SSR",
+    "type": "vocal",
+    "plan": "logic",
+    "image": { "thumbnailPath": "/support-cards/sp-ssr-sabotteru.svg", "alt": "당당하게 땡땡이 치는 중?! 카드 이미지" },
+    "source": { "defaultDataBasis": "max-breakthrough", "referenceUrls": ["https://seesaawiki.jp/gakumasu/d/%25A5%25B5%25A5%25DD%25A1%25BC%25A5%25C8%25A5%25AB%25A1%25BC%25A5%25C9%25C7%25BD%25CE%25CF%25C1%25E1%25B8%25AB%25C9%25BD"], "note": "위키 빠른표 기반 샘플" },
+    "raw": { "wikiQuickReference": { "typeLabel": "ｱVo", "planLabel": "ロジック", "event1": { "reward": "멈출 수 없는 물욕", "effect": "체력 소모 감소" }, "event2": "체력+16", "event3": "로직 SSR 스킬 카드 추가", "abilities": [ { "slot": "アビ1", "effect": "초기 보컬 상승" }, { "slot": "アビ2", "effect": "호감도 스킬 카드 획득 시 보컬 상승" }, { "slot": "アビ4", "effect": "초기 SP 레슨 발생률 증가" }, { "slot": "アビ5", "effect": "SSR 스킬 카드 획득 시 보컬 상승" } ] }, "notes": ["한국어 이름은 나무위키 참고용 임시 번역"] },
+    "limitBreak": { "defaultSelectedLevel": 4, "maxKnownLevel": 4, "statScaleByLevel": { "0": 0.84, "1": 0.89, "2": 0.93, "3": 0.97, "4": 1 }, "snapshots": { "4": { "baseScore": 84, "trainingBonus": { "vocal": 18, "dance": 0, "visual": 0, "mental": 4 }, "examBonus": { "vocal": 10, "dance": 0, "visual": 0 }, "tags": ["logic", "sp-rate", "vocal-core"], "synergyTags": ["logic", "sp-rate", "vocal-core"], "description": "초기 보컬과 SP 레슨 발생률이 높아 빠른 성장에 강한 카드입니다." } } }
+  },
+  {
+    "id": "sp-ssr-yatto-mitsuketa",
+    "slug": "yatto-mitsuketa-zo",
+    "names": { "ko": "드디어 찾았다!", "ja": "やっと見つけたぞ！" },
     "rarity": "SSR",
     "type": "dance",
-    "baseScore": 82,
-    "trainingBonus": {
-      "vocal": 2,
-      "dance": 19,
-      "visual": 3,
-      "mental": 5
-    },
-    "examBonus": {
-      "vocal": 0,
-      "dance": 15,
-      "visual": 0
-    },
-    "tags": ["lesson", "dance-core"],
-    "synergyTags": ["dance-core", "lesson"],
-    "description": "High-value dance practice card with strong exam carryover."
+    "plan": "logic",
+    "image": { "thumbnailPath": "/support-cards/sp-ssr-yatto-mitsuketa.svg", "alt": "드디어 찾았다! 카드 이미지" },
+    "source": { "defaultDataBasis": "max-breakthrough", "referenceUrls": ["https://seesaawiki.jp/gakumasu/d/%25A5%25AC%25A5%25B7%25A5%25E3%25B0%25EC%25CD%25F7"], "note": "가샤 목록과 위키를 함께 참고한 샘플" },
+    "raw": { "wikiQuickReference": { "typeLabel": "ｱDa", "planLabel": "ロジック", "event1": { "reward": "새로운 친구?", "effect": "집중+3" }, "event2": "댄스+20", "event3": "로직 SSR 스킬 카드 추가", "abilities": [ { "slot": "アビ1", "effect": "초기 댄스 상승" }, { "slot": "アビ2", "effect": "액티브 스킬 카드 사용 후 댄스 상승" }, { "slot": "アビ4", "effect": "시험 종료 시 댄스 상승" }, { "slot": "アビ5", "effect": "SSR 스킬 카드 획득 시 댄스 상승" } ] }, "notes": ["일부 세부 문구는 추후 위키 본문 재확인 필요"] },
+    "limitBreak": { "defaultSelectedLevel": 4, "maxKnownLevel": 4, "statScaleByLevel": { "0": 0.84, "1": 0.89, "2": 0.93, "3": 0.97, "4": 1 }, "snapshots": { "4": { "baseScore": 85, "trainingBonus": { "vocal": 0, "dance": 20, "visual": 0, "mental": 2 }, "examBonus": { "vocal": 0, "dance": 22, "visual": 0 }, "tags": ["lesson", "logic", "dance-core"], "synergyTags": ["logic", "dance-core", "active"], "description": "댄스 축에서 초기 수치와 시험 종료 보너스를 함께 챙기는 로직 카드입니다." } } }
   },
   {
-    "id": "sp-dance-002",
-    "name": "Backstage Tempo",
+    "id": "sp-ssr-ready-set-go",
+    "slug": "ready-set-go",
+    "names": { "ko": "레디, 셋, 고!", "ja": "レディ・セット、ゴー！" },
+    "rarity": "SSR",
+    "type": "vocal",
+    "plan": "sense",
+    "image": { "thumbnailPath": "/support-cards/sp-ssr-ready-set-go.svg", "alt": "레디, 셋, 고! 카드 이미지" },
+    "source": { "defaultDataBasis": "max-breakthrough", "referenceUrls": ["https://seesaawiki.jp/gakumasu/d/%25A5%25AC%25A5%25B7%25A5%25E3%25B0%25EC%25CD%25F7"], "note": "가샤 목록과 위키를 함께 참고한 샘플" },
+    "raw": { "wikiQuickReference": { "typeLabel": "ｱVo", "planLabel": "センス", "event1": { "reward": "스타트 대시", "effect": "호조+4" }, "event2": "보컬+20", "event3": "호조+4", "abilities": [ { "slot": "アビ1", "effect": "초기 보컬 상승" }, { "slot": "アビ2", "effect": "호조 상태일 때 보컬 상승" }, { "slot": "アビ4", "effect": "보컬 SP 레슨 종료 시 보컬 상승" }, { "slot": "アビ5", "effect": "SSR 스킬 카드 획득 시 보컬 상승" } ] }, "notes": ["일부 세부 문구는 추후 위키 본문 재확인 필요"] },
+    "limitBreak": { "defaultSelectedLevel": 4, "maxKnownLevel": 4, "statScaleByLevel": { "0": 0.84, "1": 0.89, "2": 0.93, "3": 0.97, "4": 1 }, "snapshots": { "4": { "baseScore": 82, "trainingBonus": { "vocal": 19, "dance": 0, "visual": 0, "mental": 2 }, "examBonus": { "vocal": 17, "dance": 0, "visual": 0 }, "tags": ["sense", "lesson", "vocal-core"], "synergyTags": ["sense", "vocal-core", "good-condition"], "description": "센스 플랜에서 보컬 성장과 호조 상태 활용을 함께 노릴 수 있는 카드입니다." } } }
+  },
+  {
+    "id": "sp-ssr-cooldown",
+    "slug": "cooldown-ga-taisetsu-yo",
+    "names": { "ko": "쿨다운이 중요해!", "ja": "クールダウンが大切よ！" },
+    "rarity": "SSR",
+    "type": "visual",
+    "plan": "sense",
+    "image": { "thumbnailPath": "/support-cards/sp-ssr-cooldown.svg", "alt": "쿨다운이 중요해! 카드 이미지" },
+    "source": { "defaultDataBasis": "max-breakthrough", "referenceUrls": ["https://seesaawiki.jp/gakumasu/d/%25A5%25B5%25A5%25DD%25A1%25BC%25A5%25C8%25A5%25AB%25A1%25BC%25A5%25C9%25C7%25BD%25CE%25CF%25C1%25E1%25B8%25AB%25C9%25BD"], "note": "위키 빠른표 기반 샘플" },
+    "raw": { "wikiQuickReference": { "typeLabel": "ｱVi", "planLabel": "センス", "event1": { "reward": "심호흡으로 리셋", "effect": "호조+3, 체력+4" }, "event2": "비주얼+20", "event3": "센스 SSR 스킬 카드 추가", "abilities": [ { "slot": "アビ1", "effect": "초기 비주얼 상승" }, { "slot": "アビ2", "effect": "호조 스킬 카드 획득 시 비주얼 상승" }, { "slot": "アビ4", "effect": "비주얼 SP 레슨 종료 시 비주얼 상승" }, { "slot": "アビ5", "effect": "멘탈 스킬 카드 획득 시 비주얼 상승" } ] }, "notes": ["한국어 이름은 나무위키 참고용 임시 번역"] },
+    "limitBreak": { "defaultSelectedLevel": 4, "maxKnownLevel": 4, "statScaleByLevel": { "0": 0.84, "1": 0.89, "2": 0.93, "3": 0.97, "4": 1 }, "snapshots": { "4": { "baseScore": 81, "trainingBonus": { "vocal": 0, "dance": 0, "visual": 19, "mental": 3 }, "examBonus": { "vocal": 0, "dance": 0, "visual": 17 }, "tags": ["sense", "visual-core", "recovery"], "synergyTags": ["sense", "visual-core", "good-condition"], "description": "비주얼 축에서 센스 운영과 안정성을 함께 챙기기 좋은 카드입니다." } } }
+  },
+  {
+    "id": "sp-sr-nakayoshi-no-akashi",
+    "slug": "nakayoshi-no-akashi",
+    "names": { "ko": "사이좋음의 증표", "ja": "仲良しの証" },
     "rarity": "SR",
     "type": "dance",
-    "baseScore": 70,
-    "trainingBonus": {
-      "vocal": 1,
-      "dance": 14,
-      "visual": 4,
-      "mental": 9
-    },
-    "examBonus": {
-      "vocal": 0,
-      "dance": 8,
-      "visual": 0
-    },
-    "tags": ["support", "recovery"],
-    "synergyTags": ["support", "dance-core"],
-    "description": "Reliable dance gains plus moderate recovery support."
+    "plan": "free",
+    "image": { "thumbnailPath": "/support-cards/sp-sr-nakayoshi-no-akashi.svg", "alt": "사이좋음의 증표 카드 이미지" },
+    "source": { "defaultDataBasis": "max-breakthrough", "referenceUrls": ["https://seesaawiki.jp/gakumasu/d/%25A5%25B5%25A5%25DD%25A1%25BC%25A5%25C8%25A5%25AB%25A1%25BC%25A5%25C9%25C7%25BD%25CE%25CF%25C1%25E1%25B8%25AB%25C9%25BD"], "note": "SR 카드군 확장 샘플" },
+    "raw": { "wikiQuickReference": { "typeLabel": "ｱDa", "planLabel": "フリー", "event1": { "reward": "함께라면 괜찮아", "effect": "체력+6" }, "event2": "댄스+15", "event3": "SR 스킬 카드 추가", "abilities": [ { "slot": "アビ1", "effect": "초기 댄스 상승" }, { "slot": "アビ2", "effect": "서포트 카드 이벤트 발생 시 댄스 상승" }, { "slot": "アビ4", "effect": "댄스 레슨 종료 시 댄스 상승" }, { "slot": "アビ5", "effect": "SR 스킬 카드 획득 시 댄스 상승" } ] }, "notes": ["한국어 이름은 나무위키 참고용 임시 번역"] },
+    "limitBreak": { "defaultSelectedLevel": 4, "maxKnownLevel": 4, "statScaleByLevel": { "0": 0.84, "1": 0.89, "2": 0.93, "3": 0.97, "4": 1 }, "snapshots": { "4": { "baseScore": 70, "trainingBonus": { "vocal": 0, "dance": 14, "visual": 2, "mental": 4 }, "examBonus": { "vocal": 0, "dance": 9, "visual": 0 }, "tags": ["free", "dance-core", "support"], "synergyTags": ["free", "dance-core"], "description": "가벼운 회복과 댄스 성장을 함께 챙기기 좋은 프리 SR 카드입니다." } } }
   },
   {
-    "id": "sp-visual-001",
-    "name": "Color Framing",
-    "rarity": "SSR",
-    "type": "visual",
-    "baseScore": 80,
-    "trainingBonus": {
-      "vocal": 0,
-      "dance": 3,
-      "visual": 21,
-      "mental": 4
-    },
-    "examBonus": {
-      "vocal": 0,
-      "dance": 0,
-      "visual": 13
-    },
-    "tags": ["visual-core", "burst"],
-    "synergyTags": ["visual-core", "burst"],
-    "description": "Excellent visual scaling with burst-oriented synergy hooks."
-  },
-  {
-    "id": "sp-visual-002",
-    "name": "Prism Notes",
+    "id": "sp-sr-ohisama-egao",
+    "slug": "ohisama-egao-mankai-futatsu",
+    "names": { "ko": "햇살 미소, 만개한 두 송이", "ja": "おひさま笑顔、満開ふたつ" },
     "rarity": "SR",
     "type": "visual",
-    "baseScore": 68,
-    "trainingBonus": {
-      "vocal": 0,
-      "dance": 2,
-      "visual": 15,
-      "mental": 8
-    },
-    "examBonus": {
-      "vocal": 0,
-      "dance": 0,
-      "visual": 7
-    },
-    "tags": ["support", "visual-core"],
-    "synergyTags": ["support", "visual-core"],
-    "description": "Balanced visual support that keeps deck flexibility high."
+    "plan": "sense",
+    "image": { "thumbnailPath": "/support-cards/sp-sr-ohisama-egao.svg", "alt": "햇살 미소, 만개한 두 송이 카드 이미지" },
+    "source": { "defaultDataBasis": "max-breakthrough", "referenceUrls": ["https://seesaawiki.jp/gakumasu/d/%25A5%25B5%25A5%25DD%25A1%25BC%25A5%25C8%25A5%25AB%25A1%25BC%25A5%25C9%25C7%25BD%25CE%25CF%25C1%25E1%25B8%25AB%25C9%25BD"], "note": "SR 카드군 확장 샘플" },
+    "raw": { "wikiQuickReference": { "typeLabel": "ｱVi", "planLabel": "センス", "event1": { "reward": "활짝 웃는 얼굴", "effect": "호조+2" }, "event2": "비주얼+15", "event3": "센스 SR 스킬 카드 추가", "abilities": [ { "slot": "アビ1", "effect": "초기 비주얼 상승" }, { "slot": "アビ2", "effect": "호조 상태일 때 비주얼 상승" }, { "slot": "アビ4", "effect": "비주얼 레슨 종료 시 비주얼 상승" }, { "slot": "アビ5", "effect": "SR 스킬 카드 획득 시 비주얼 상승" } ] }, "notes": ["한국어 이름은 나무위키 참고용 임시 번역"] },
+    "limitBreak": { "defaultSelectedLevel": 4, "maxKnownLevel": 4, "statScaleByLevel": { "0": 0.84, "1": 0.89, "2": 0.93, "3": 0.97, "4": 1 }, "snapshots": { "4": { "baseScore": 68, "trainingBonus": { "vocal": 0, "dance": 1, "visual": 15, "mental": 4 }, "examBonus": { "vocal": 0, "dance": 0, "visual": 8 }, "tags": ["sense", "visual-core", "support"], "synergyTags": ["sense", "visual-core"], "description": "비주얼과 호조 상태를 함께 활용하는 센스 SR 카드입니다." } } }
   },
   {
-    "id": "sp-mental-001",
-    "name": "Calm Routine",
-    "rarity": "SSR",
-    "type": "mental",
-    "baseScore": 77,
-    "trainingBonus": {
-      "vocal": 3,
-      "dance": 3,
-      "visual": 3,
-      "mental": 18
-    },
-    "examBonus": {
-      "vocal": 2,
-      "dance": 2,
-      "visual": 2
-    },
-    "tags": ["recovery", "consistency"],
-    "synergyTags": ["support", "recovery"],
-    "description": "Broad utility card that stabilizes long runs."
-  },
-  {
-    "id": "sp-mental-002",
-    "name": "Focus Control",
+    "id": "sp-sr-gutsugutsu-ii-nioi",
+    "slug": "gutsugutsu-ii-nioi",
+    "names": { "ko": "보글보글, 좋은 냄새♪", "ja": "ぐつぐつ、いいにおい♪" },
     "rarity": "SR",
     "type": "mental",
-    "baseScore": 64,
-    "trainingBonus": {
-      "vocal": 4,
-      "dance": 4,
-      "visual": 4,
-      "mental": 12
-    },
-    "examBonus": {
-      "vocal": 1,
-      "dance": 1,
-      "visual": 1
-    },
-    "tags": ["recovery", "stability"],
-    "synergyTags": ["support", "consistency"],
-    "description": "Low ceiling, but helps avoid weak deck holes in MVP scoring."
+    "plan": "anomaly",
+    "image": { "thumbnailPath": "/support-cards/sp-sr-gutsugutsu-ii-nioi.svg", "alt": "보글보글, 좋은 냄새 카드 이미지" },
+    "source": { "defaultDataBasis": "max-breakthrough", "referenceUrls": ["https://seesaawiki.jp/gakumasu/d/%25A5%25B5%25A5%25DD%25A1%25BC%25A5%25C8%25A5%25AB%25A1%25BC%25A5%25C9%25C7%25BD%25CE%25CF%25C1%25E1%25B8%25AB%25C9%25BD"], "note": "SR 카드군 확장 샘플" },
+    "raw": { "wikiQuickReference": { "typeLabel": "ｱメ", "planLabel": "アノマリー", "event1": { "reward": "따끈한 한 그릇", "effect": "체력+8" }, "event2": "멘탈+15", "event3": "어노말리 SR 스킬 카드 추가", "abilities": [ { "slot": "アビ1", "effect": "초기 멘탈 상승" }, { "slot": "アビ2", "effect": "멘탈 스킬 카드 획득 시 전 스탯 보조" }, { "slot": "アビ4", "effect": "시험 종료 시 멘탈 보조" }, { "slot": "アビ5", "effect": "회복 관련 행동 시 추가 보너스" } ] }, "notes": ["한국어 이름은 나무위키 참고용 임시 번역"] },
+    "limitBreak": { "defaultSelectedLevel": 4, "maxKnownLevel": 4, "statScaleByLevel": { "0": 0.84, "1": 0.89, "2": 0.93, "3": 0.97, "4": 1 }, "snapshots": { "4": { "baseScore": 66, "trainingBonus": { "vocal": 2, "dance": 2, "visual": 2, "mental": 14 }, "examBonus": { "vocal": 1, "dance": 1, "visual": 1 }, "tags": ["anomaly", "recovery", "support"], "synergyTags": ["anomaly", "recovery"], "description": "회복과 멘탈 보조에 초점을 맞춘 어노말리 SR 카드입니다." } } }
   }
 ]

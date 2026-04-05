@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp-ssr-kimi-wa-jiman",
+    "slug": "kimi-wa-jiman-no-seito-desu",
+    "names": { "ko": "너는 자랑스러운 제자야", "ja": "きみは、自慢の生徒です" },
+    "rarity": "SSR",
+    "type": "mental",
+    "plan": "free",
+    "image": { "thumbnailPath": "/support-cards/placeholder-card.svg", "alt": "너는 자랑스러운 제자야 카드 이미지" },
+    "source": { "defaultDataBasis": "max-breakthrough", "referenceUrls": ["https://seesaawiki.jp/gakumasu/d/Q%2526A"], "note": "Q&A 추천 카드명 기반 임시 입력" },
+    "raw": { "wikiQuickReference": { "typeLabel": "アシスト", "planLabel": "フリー", "event1": { "reward": "추후 확인", "effect": "Q&A에서 사용 추천 카드로 언급" }, "event2": "추후 확인", "event3": "추후 확인", "abilities": [ { "slot": "アビ1", "effect": "SP율 계열로 평가되는 카드" } ] }, "notes": ["한국어 이름은 임시 번역"] },
+    "limitBreak": { "defaultSelectedLevel": 4, "maxKnownLevel": 4, "statScaleByLevel": { "0": 0.84, "1": 0.89, "2": 0.93, "3": 0.97, "4": 1 }, "snapshots": { "4": { "baseScore": 76, "trainingBonus": { "vocal": 2, "dance": 2, "visual": 2, "mental": 16 }, "examBonus": { "vocal": 1, "dance": 1, "visual": 1 }, "tags": ["assist", "support", "sp-rate"], "synergyTags": ["support", "sp-rate"], "description": "Q&A에서 범용 보조 카드로 추천된 어시스트 SSR 카드입니다." } } }
+  },
+  {
+    "id": "sp-ssr-shokuyoku-no-aki",
+    "slug": "shokuyoku-no-aki-nandesu",
+    "names": { "ko": "식욕의 가을이에요", "ja": "食欲の秋なんです" },
+    "rarity": "SSR",
+    "type": "mental",
+    "plan": "free",
+    "image": { "thumbnailPath": "/support-cards/placeholder-card.svg", "alt": "식욕의 가을이에요 카드 이미지" },
+    "source": { "defaultDataBasis": "max-breakthrough", "referenceUrls": ["https://seesaawiki.jp/gakumasu/d/Q%2526A"], "note": "Q&A 추천 카드명 기반 임시 입력" },
+    "raw": { "wikiQuickReference": { "typeLabel": "アシスト", "planLabel": "フリー", "event1": { "reward": "추후 확인", "effect": "Q&A 추천 카드" }, "event2": "추후 확인", "event3": "추후 확인", "abilities": [ { "slot": "アビ1", "effect": "SP율 계열 가치가 좋은 카드로 언급" } ] }, "notes": ["한국어 이름은 임시 번역"] },
+    "limitBreak": { "defaultSelectedLevel": 4, "maxKnownLevel": 4, "statScaleByLevel": { "0": 0.84, "1": 0.89, "2": 0.93, "3": 0.97, "4": 1 }, "snapshots": { "4": { "baseScore": 75, "trainingBonus": { "vocal": 2, "dance": 2, "visual": 2, "mental": 15 }, "examBonus": { "vocal": 1, "dance": 1, "visual": 1 }, "tags": ["assist", "support", "sp-rate"], "synergyTags": ["support", "sp-rate"], "description": "Q&A에서 범용 사용 추천으로 언급된 어시스트 SSR 카드입니다." } } }
+  },
+  {
+    "id": "sp-ssr-nani-yatterun-darou",
+    "slug": "nani-yatterundarou",
+    "names": { "ko": "뭘 하고 있는 걸까,", "ja": "何やってるんだろう、" },
+    "rarity": "SSR",
+    "type": "vocal",
+    "plan": "free",
+    "image": { "thumbnailPath": "/support-cards/placeholder-card.svg", "alt": "뭘 하고 있는 걸까 카드 이미지" },
+    "source": { "defaultDataBasis": "max-breakthrough", "referenceUrls": ["https://seesaawiki.jp/gakumasu/d/Q%2526A"], "note": "Q&A 추천 카드명 기반 임시 입력" },
+    "raw": { "wikiQuickReference": { "typeLabel": "ボーカル", "planLabel": "フリー", "event1": { "reward": "추후 확인", "effect": "스킬 카드 사용 횟수 증가 계열로 언급" }, "event2": "추후 확인", "event3": "추후 확인", "abilities": [ { "slot": "アビ1", "effect": "SP율 계열 추천 카드" } ] }, "notes": ["한국어 이름은 임시 번역"] },
+    "limitBreak": { "defaultSelectedLevel": 4, "maxKnownLevel": 4, "statScaleByLevel": { "0": 0.84, "1": 0.89, "2": 0.93, "3": 0.97, "4": 1 }, "snapshots": { "4": { "baseScore": 80, "trainingBonus": { "vocal": 18, "dance": 0, "visual": 0, "mental": 3 }, "examBonus": { "vocal": 14, "dance": 0, "visual": 0 }, "tags": ["vocal-core", "support", "sp-rate"], "synergyTags": ["vocal-core", "sp-rate"], "description": "Q&A에서 보컬 추천 카드로 언급된 SSR 카드입니다." } } }
+  },
+  {
+    "id": "sp-ssr-mata-annani-muri",
+    "slug": "mata-annani-muri-wo-shite",
+    "names": { "ko": "또 그렇게 무리를 하고", "ja": "また、あんなに無理をして" },
+    "rarity": "SSR",
+    "type": "vocal",
+    "plan": "free",
+    "image": { "thumbnailPath": "/support-cards/placeholder-card.svg", "alt": "또 그렇게 무리를 하고 카드 이미지" },
+    "source": { "defaultDataBasis": "max-breakthrough", "referenceUrls": ["https://seesaawiki.jp/gakumasu/d/Q%2526A"], "note": "Q&A 추천 카드명 기반 임시 입력" },
+    "raw": { "wikiQuickReference": { "typeLabel": "ボーカル", "planLabel": "フリー", "event1": { "reward": "추후 확인", "effect": "파라미터 보너스형 카드로 언급" }, "event2": "추후 확인", "event3": "추후 확인", "abilities": [ { "slot": "アビ1", "effect": "파라미터 보너스 계열 추천 카드" } ] }, "notes": ["한국어 이름은 임시 번역"] },
+    "limitBreak": { "defaultSelectedLevel": 4, "maxKnownLevel": 4, "statScaleByLevel": { "0": 0.84, "1": 0.89, "2": 0.93, "3": 0.97, "4": 1 }, "snapshots": { "4": { "baseScore": 81, "trainingBonus": { "vocal": 17, "dance": 0, "visual": 0, "mental": 4 }, "examBonus": { "vocal": 11, "dance": 0, "visual": 0 }, "tags": ["vocal-core", "support", "parameter"], "synergyTags": ["vocal-core", "parameter"], "description": "Q&A에서 보컬 파라미터 보너스형 카드로 언급된 SSR 카드입니다." } } }
+  },
+  {
+    "id": "sp-ssr-kawaii-kawaii",
+    "slug": "kawaii-to-kawaii-de-kawaii",
+    "names": { "ko": "귀여움과 귀여움으로 귀여워!", "ja": "可愛いと可愛いで可愛い！" },
+    "rarity": "SSR",
+    "type": "vocal",
+    "plan": "free",
+    "image": { "thumbnailPath": "/support-cards/placeholder-card.svg", "alt": "귀여움과 귀여움으로 귀여워 카드 이미지" },
+    "source": { "defaultDataBasis": "max-breakthrough", "referenceUrls": ["https://seesaawiki.jp/gakumasu/d/Q%2526A"], "note": "Q&A 추천 카드명 기반 임시 입력" },
+    "raw": { "wikiQuickReference": { "typeLabel": "ボーカル", "planLabel": "フリー", "event1": { "reward": "추후 확인", "effect": "고유 스킬 강화 필수 카드로 언급" }, "event2": "추후 확인", "event3": "추후 확인", "abilities": [ { "slot": "アビ1", "effect": "SP율 계열 추천 카드" } ] }, "notes": ["한국어 이름은 임시 번역"] },
+    "limitBreak": { "defaultSelectedLevel": 4, "maxKnownLevel": 4, "statScaleByLevel": { "0": 0.84, "1": 0.89, "2": 0.93, "3": 0.97, "4": 1 }, "snapshots": { "4": { "baseScore": 79, "trainingBonus": { "vocal": 17, "dance": 0, "visual": 0, "mental": 3 }, "examBonus": { "vocal": 13, "dance": 0, "visual": 0 }, "tags": ["vocal-core", "support", "cute"], "synergyTags": ["vocal-core", "cute"], "description": "Q&A에서 고유 스킬 강화가 중요한 보컬 SSR 카드로 언급된 카드입니다." } } }
+  },
+  {
+    "id": "sp-ssr-futari-nara",
+    "slug": "futari-nara-attoiuma-da-ne",
+    "names": { "ko": "둘이라면 순식간이네", "ja": "二人ならあっという間だね" },
+    "rarity": "SSR",
+    "type": "vocal",
+    "plan": "free",
+    "image": { "thumbnailPath": "/support-cards/placeholder-card.svg", "alt": "둘이라면 순식간이네 카드 이미지" },
+    "source": { "defaultDataBasis": "max-breakthrough", "referenceUrls": ["https://seesaawiki.jp/gakumasu/d/Q%2526A"], "note": "Q&A 추천 카드명 기반 임시 입력" },
+    "raw": { "wikiQuickReference": { "typeLabel": "ボーカル", "planLabel": "フリー", "event1": { "reward": "추후 확인", "effect": "파라미터 보너스형 카드로 언급" }, "event2": "추후 확인", "event3": "추후 확인", "abilities": [ { "slot": "アビ1", "effect": "파라미터 보너스 계열 추천 카드" } ] }, "notes": ["한국어 이름은 임시 번역"] },
+    "limitBreak": { "defaultSelectedLevel": 4, "maxKnownLevel": 4, "statScaleByLevel": { "0": 0.84, "1": 0.89, "2": 0.93, "3": 0.97, "4": 1 }, "snapshots": { "4": { "baseScore": 78, "trainingBonus": { "vocal": 16, "dance": 0, "visual": 0, "mental": 3 }, "examBonus": { "vocal": 10, "dance": 0, "visual": 0 }, "tags": ["vocal-core", "support", "parameter"], "synergyTags": ["vocal-core", "support"], "description": "Q&A에서 파라미터 보너스형으로 언급된 보컬 SSR 카드입니다." } } }
+  }
+]

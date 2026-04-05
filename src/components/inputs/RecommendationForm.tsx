@@ -1,6 +1,7 @@
 "use client";
 
 import type { RunPolicy } from "@/domain/models/RunPolicy";
+import { getLimitBreakLabel, type LimitBreakLevel } from "@/domain/models/SupportCard";
 import type { Stage } from "@/domain/models/Stage";
 
 interface RecommendationFormProps {
@@ -8,50 +9,42 @@ interface RecommendationFormProps {
   policies: RunPolicy[];
   selectedStageId: string;
   selectedPolicyId: string;
+  selectedLimitBreakLevel: LimitBreakLevel;
+  onStageChange?: (value: string) => void;
+  onPolicyChange?: (value: string) => void;
+  onLimitBreakChange?: (value: string) => void;
 }
 
-export function RecommendationForm({
-  stages,
-  policies,
-  selectedStageId,
-  selectedPolicyId,
-}: RecommendationFormProps) {
+const limitBreakOptions: LimitBreakLevel[] = [0, 1, 2, 3, 4];
+
+export function RecommendationForm({ stages, policies, selectedStageId, selectedPolicyId, selectedLimitBreakLevel, onStageChange, onPolicyChange, onLimitBreakChange }: RecommendationFormProps) {
   return (
-    <form className="grid gap-4 rounded-3xl border border-black/10 bg-white/80 p-6 shadow-sm">
+    <div className="grid gap-4">
       <div>
-        <label className="mb-2 block text-sm font-medium">Stage</label>
-        <select
-          name="stageId"
-          defaultValue={selectedStageId}
-          className="w-full rounded-2xl border border-black/10 bg-white px-4 py-3"
-        >
+        <label className="mb-2 block text-sm font-medium">스테이지</label>
+        <select name="stageId" value={selectedStageId} onChange={(event) => onStageChange?.(event.target.value)} className="w-full rounded-2xl border border-black/10 bg-white px-4 py-3">
           {stages.map((stage) => (
-            <option key={stage.id} value={stage.id}>
-              {stage.name}
-            </option>
+            <option key={stage.id} value={stage.id}>{stage.name}</option>
           ))}
         </select>
       </div>
       <div>
-        <label className="mb-2 block text-sm font-medium">Policy</label>
-        <select
-          name="policyId"
-          defaultValue={selectedPolicyId}
-          className="w-full rounded-2xl border border-black/10 bg-white px-4 py-3"
-        >
+        <label className="mb-2 block text-sm font-medium">정책</label>
+        <select name="policyId" value={selectedPolicyId} onChange={(event) => onPolicyChange?.(event.target.value)} className="w-full rounded-2xl border border-black/10 bg-white px-4 py-3">
           {policies.map((policy) => (
-            <option key={policy.id} value={policy.id}>
-              {policy.name}
-            </option>
+            <option key={policy.id} value={policy.id}>{policy.name}</option>
           ))}
         </select>
       </div>
-      <button
-        type="submit"
-        className="rounded-2xl bg-accent px-5 py-3 font-semibold text-white transition hover:brightness-95"
-      >
-        Recommend Best Deck
-      </button>
-    </form>
+      <div>
+        <label className="mb-2 block text-sm font-medium">기본 돌파 단계</label>
+        <select name="limitBreakLevel" value={selectedLimitBreakLevel} onChange={(event) => onLimitBreakChange?.(event.target.value)} className="w-full rounded-2xl border border-black/10 bg-white px-4 py-3">
+          {limitBreakOptions.map((level) => (
+            <option key={level} value={level}>{getLimitBreakLabel(level)}</option>
+          ))}
+        </select>
+        <p className="mt-2 text-xs leading-5 text-black/55">보유 카드 업로드를 적용하면 카드별 실제 돌파 단계가 이 값보다 우선합니다.</p>
+      </div>
+    </div>
   );
 }

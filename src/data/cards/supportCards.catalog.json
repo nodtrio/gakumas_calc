@@ -1,0 +1,10 @@
+[
+  { "id": "ssr-free", "label": "SSR 프리", "file": "groups/ssr.free.json" },
+  { "id": "ssr-sense", "label": "SSR 센스", "file": "groups/ssr.sense.json" },
+  { "id": "ssr-logic", "label": "SSR 로직", "file": "groups/ssr.logic.json" },
+  { "id": "ssr-anomaly", "label": "SSR 어노말리", "file": "groups/ssr.anomaly.json" },
+  { "id": "sr-free", "label": "SR 프리", "file": "groups/sr.free.json" },
+  { "id": "sr-sense", "label": "SR 센스", "file": "groups/sr.sense.json" },
+  { "id": "sr-logic", "label": "SR 로직", "file": "groups/sr.logic.json" },
+  { "id": "sr-anomaly", "label": "SR 어노말리", "file": "groups/sr.anomaly.json" }
+]

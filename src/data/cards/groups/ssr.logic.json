@@ -1,0 +1,207 @@
+[
+  {
+    "id": "sp-ssr-omoide-no-takarabako",
+    "slug": "omoide-no-takarabako-da-ne",
+    "names": { "ko": "추억의 보물상자네", "ja": "思い出の宝箱だ、ね" },
+    "rarity": "SSR",
+    "type": "visual",
+    "plan": "logic",
+    "image": { "thumbnailPath": "/support-cards/sp-ssr-omoide-no-takarabako.svg", "alt": "추억의 보물상자네 카드 이미지" },
+    "source": { "defaultDataBasis": "max-breakthrough", "referenceUrls": ["https://seesaawiki.jp/gakumasu/d/%25A5%25B5%25A5%25DD%25A1%25BC%25A5%25C8%25A5%25AB%25A1%25BC%25A5%25C9%25C7%25BD%25CE%25CF%25C1%25E1%25B8%25AB%25C9%25BD"], "note": "위키 빠른표 기반 샘플" },
+    "raw": {
+      "wikiQuickReference": {
+        "typeLabel": "비주얼",
+        "planLabel": "로직",
+        "event1": { "reward": "반짝이는 추억", "effect": "비주얼+20" },
+        "event2": "SP+18",
+        "event3": "SSR 스킬 카드 추가",
+        "abilities": [
+          { "slot": "어빌1", "effect": "초기 비주얼 증가" },
+          { "slot": "어빌2", "effect": "SP 스킬 카드 사용 시 비주얼 증가" },
+          { "slot": "어빌4", "effect": "시험 종료 시 비주얼 증가" },
+          { "slot": "어빌5", "effect": "SSR 스킬 카드 획득 시 비주얼 증가" }
+        ]
+      },
+      "notes": ["일부 빠른표 문구를 요약해 입력"]
+    },
+    "limitBreak": {
+      "defaultSelectedLevel": 4,
+      "maxKnownLevel": 4,
+      "statScaleByLevel": { "0": 0.84, "1": 0.89, "2": 0.93, "3": 0.97, "4": 1 },
+      "snapshots": {
+        "4": {
+          "baseScore": 84,
+          "trainingBonus": { "vocal": 0, "dance": 0, "visual": 19, "mental": 3 },
+          "examBonus": { "vocal": 0, "dance": 0, "visual": 16 },
+          "tags": ["logic", "visual-core", "sp-rate"],
+          "synergyTags": ["logic", "visual-core", "sp-rate"],
+          "description": "비주얼과 SP 축을 안정적으로 밀어주는 로직 SSR 카드입니다."
+        }
+      }
+    }
+  },
+  {
+    "id": "sp-ssr-doudou-to-sabotteru",
+    "slug": "doudou-to-sabotteru",
+    "names": { "ko": "당당하게 땡땡이 치는 중?!", "ja": "堂々とサボってる！？" },
+    "rarity": "SSR",
+    "type": "dance",
+    "plan": "logic",
+    "image": { "thumbnailPath": "/support-cards/sp-ssr-doudou-to-sabotteru.svg", "alt": "당당하게 땡땡이 치는 중?! 카드 이미지" },
+    "source": { "defaultDataBasis": "max-breakthrough", "referenceUrls": ["https://seesaawiki.jp/gakumasu/d/%25A5%25B5%25A5%25DD%25A1%25BC%25A5%25C8%25A5%25AB%25A1%25BC%25A5%25C9%25C7%25BD%25CE%25CF%25C1%25E1%25B8%25AB%25C9%25BD"], "note": "위키 빠른표 기반 샘플" },
+    "raw": {
+      "wikiQuickReference": {
+        "typeLabel": "댄스",
+        "planLabel": "로직",
+        "event1": { "reward": "휴식의 기술", "effect": "체력+6" },
+        "event2": "댄스+20",
+        "event3": "SSR 스킬 카드 추가",
+        "abilities": [
+          { "slot": "어빌1", "effect": "초기 댄스 증가" },
+          { "slot": "어빌2", "effect": "휴식 선택 시 댄스 증가" },
+          { "slot": "어빌4", "effect": "시험 종료 시 댄스 증가" },
+          { "slot": "어빌5", "effect": "회복형 카드 획득 시 댄스 증가" }
+        ]
+      },
+      "notes": ["빠른표 구조를 기준으로 재정리"]
+    },
+    "limitBreak": {
+      "defaultSelectedLevel": 4,
+      "maxKnownLevel": 4,
+      "statScaleByLevel": { "0": 0.84, "1": 0.89, "2": 0.93, "3": 0.97, "4": 1 },
+      "snapshots": {
+        "4": {
+          "baseScore": 83,
+          "trainingBonus": { "vocal": 0, "dance": 19, "visual": 0, "mental": 3 },
+          "examBonus": { "vocal": 0, "dance": 16, "visual": 0 },
+          "tags": ["logic", "dance-core", "recovery"],
+          "synergyTags": ["logic", "dance-core", "recovery"],
+          "description": "휴식과 회복 보조를 통해 댄스 효율을 끌어올리는 로직 SSR 카드입니다."
+        }
+      }
+    }
+  },
+  {
+    "id": "sp-ssr-yatto-mitsuketa",
+    "slug": "yatto-mitsuketa-zo",
+    "names": { "ko": "드디어 찾았다!", "ja": "やっと見つけたぞ！" },
+    "rarity": "SSR",
+    "type": "vocal",
+    "plan": "logic",
+    "image": { "thumbnailPath": "/support-cards/sp-ssr-yatto-mitsuketa.svg", "alt": "드디어 찾았다! 카드 이미지" },
+    "source": { "defaultDataBasis": "max-breakthrough", "referenceUrls": ["https://seesaawiki.jp/gakumasu/d/%25A5%25B5%25A5%25DD%25A1%25BC%25A5%25C8%25A5%25AB%25A1%25BC%25A5%25C9%25C7%25BD%25CE%25CF%25C1%25E1%25B8%25AB%25C9%25BD"], "note": "위키 빠른표 기반 샘플" },
+    "raw": {
+      "wikiQuickReference": {
+        "typeLabel": "보컬",
+        "planLabel": "로직",
+        "event1": { "reward": "찾아낸 힌트", "effect": "보컬+20" },
+        "event2": "SP+16",
+        "event3": "SSR 스킬 카드 추가",
+        "abilities": [
+          { "slot": "어빌1", "effect": "초기 보컬 증가" },
+          { "slot": "어빌2", "effect": "SP 스킬 카드 사용 시 보컬 증가" },
+          { "slot": "어빌4", "effect": "시험 종료 시 보컬 증가" },
+          { "slot": "어빌5", "effect": "SSR 스킬 카드 획득 시 보컬 증가" }
+        ]
+      },
+      "notes": ["빠른표 구조를 기준으로 재정리"]
+    },
+    "limitBreak": {
+      "defaultSelectedLevel": 4,
+      "maxKnownLevel": 4,
+      "statScaleByLevel": { "0": 0.84, "1": 0.89, "2": 0.93, "3": 0.97, "4": 1 },
+      "snapshots": {
+        "4": {
+          "baseScore": 83,
+          "trainingBonus": { "vocal": 19, "dance": 0, "visual": 0, "mental": 3 },
+          "examBonus": { "vocal": 16, "dance": 0, "visual": 0 },
+          "tags": ["logic", "vocal-core", "sp-rate"],
+          "synergyTags": ["logic", "vocal-core", "sp-rate"],
+          "description": "보컬과 SP 카드 활용을 동시에 챙기는 로직 SSR 카드입니다."
+        }
+      }
+    }
+  },
+  {
+    "id": "sp-ssr-sumikko-no-senryaku",
+    "slug": "sumikko-no-senryaku",
+    "names": { "ko": "구석 자리의 전략", "ja": "すみっこの戦略" },
+    "rarity": "SSR",
+    "type": "mental",
+    "plan": "logic",
+    "image": { "thumbnailPath": "/support-cards/placeholder-card.svg", "alt": "구석 자리의 전략 카드 이미지" },
+    "source": { "defaultDataBasis": "max-breakthrough", "referenceUrls": ["https://seesaawiki.jp/gakumasu/"], "note": "임시 입력. 본문 대조 필요" },
+    "raw": {
+      "wikiQuickReference": {
+        "typeLabel": "멘탈",
+        "planLabel": "로직",
+        "event1": { "reward": "정리된 노트", "effect": "체력+8" },
+        "event2": "SP+18",
+        "event3": "회복형 SSR 스킬 카드 추가",
+        "abilities": [
+          { "slot": "어빌1", "effect": "초기 체력 증가" },
+          { "slot": "어빌2", "effect": "상담 선택 시 SP 증가" },
+          { "slot": "어빌4", "effect": "시험 종료 시 SP 증가" },
+          { "slot": "어빌5", "effect": "회복형 카드 획득 시 SP 증가" }
+        ]
+      },
+      "notes": ["실제 카드명 확정 전까지 임시 데이터"]
+    },
+    "limitBreak": {
+      "defaultSelectedLevel": 4,
+      "maxKnownLevel": 4,
+      "statScaleByLevel": { "0": 0.84, "1": 0.89, "2": 0.93, "3": 0.97, "4": 1 },
+      "snapshots": {
+        "4": {
+          "baseScore": 79,
+          "trainingBonus": { "vocal": 2, "dance": 2, "visual": 2, "mental": 16 },
+          "examBonus": { "vocal": 1, "dance": 1, "visual": 1 },
+          "tags": ["logic", "support", "recovery"],
+          "synergyTags": ["logic", "recovery", "sp-rate"],
+          "description": "로직 덱에서 체력과 SP 관리를 안정적으로 묶어주는 SSR 카드입니다."
+        }
+      }
+    }
+  },
+  {
+    "id": "sp-ssr-keisan-zumi-no-egao",
+    "slug": "keisan-zumi-no-egao",
+    "names": { "ko": "계산 끝난 미소", "ja": "計算ずみの笑顔" },
+    "rarity": "SSR",
+    "type": "visual",
+    "plan": "logic",
+    "image": { "thumbnailPath": "/support-cards/placeholder-card.svg", "alt": "계산 끝난 미소 카드 이미지" },
+    "source": { "defaultDataBasis": "max-breakthrough", "referenceUrls": ["https://seesaawiki.jp/gakumasu/"], "note": "임시 입력. 본문 대조 필요" },
+    "raw": {
+      "wikiQuickReference": {
+        "typeLabel": "비주얼",
+        "planLabel": "로직",
+        "event1": { "reward": "정답 노트", "effect": "비주얼+20" },
+        "event2": "SP+18",
+        "event3": "비주얼 SSR 스킬 카드 추가",
+        "abilities": [
+          { "slot": "어빌1", "effect": "초기 비주얼 증가" },
+          { "slot": "어빌2", "effect": "SP 사용 시 비주얼 증가" },
+          { "slot": "어빌4", "effect": "비주얼 시험 종료 시 비주얼 증가" },
+          { "slot": "어빌5", "effect": "SSR 스킬 카드 획득 시 비주얼 증가" }
+        ]
+      },
+      "notes": ["실제 카드명 확정 전까지 임시 데이터"]
+    },
+    "limitBreak": {
+      "defaultSelectedLevel": 4,
+      "maxKnownLevel": 4,
+      "statScaleByLevel": { "0": 0.84, "1": 0.89, "2": 0.93, "3": 0.97, "4": 1 },
+      "snapshots": {
+        "4": {
+          "baseScore": 81,
+          "trainingBonus": { "vocal": 0, "dance": 0, "visual": 18, "mental": 3 },
+          "examBonus": { "vocal": 0, "dance": 0, "visual": 15 },
+          "tags": ["logic", "visual-core", "sp-rate"],
+          "synergyTags": ["logic", "visual-core", "support"],
+          "description": "비주얼 중심 로직 덱에서 안정적인 점수 효율을 내기 쉬운 SSR 카드입니다."
+        }
+      }
+    }
+  }
+]

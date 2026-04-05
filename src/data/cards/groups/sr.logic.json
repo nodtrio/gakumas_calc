@@ -1,0 +1,125 @@
+[
+  {
+    "id": "sp-sr-otoshita-kotoba",
+    "slug": "otoshita-kotoba-wa-mata-hirou",
+    "names": { "ko": "떨어진 말은 다시 주우면 돼", "ja": "落とした言葉はまた拾えばいい" },
+    "rarity": "SR",
+    "type": "dance",
+    "plan": "logic",
+    "image": { "thumbnailPath": "/support-cards/placeholder-card.svg", "alt": "떨어진 말은 다시 주우면 돼 카드 이미지" },
+    "source": { "defaultDataBasis": "max-breakthrough", "referenceUrls": ["https://seesaawiki.jp/gakumasu/"], "note": "위키 빠른표 구조에 맞춘 임시 입력. 본문 대조 필요" },
+    "raw": {
+      "wikiQuickReference": {
+        "typeLabel": "댄스",
+        "planLabel": "로직",
+        "event1": { "reward": "잡지 인터뷰", "effect": "댄스+15" },
+        "event2": "체력+6",
+        "event3": "SR 스킬 카드 추가",
+        "abilities": [
+          { "slot": "어빌1", "effect": "초기 댄스 증가" },
+          { "slot": "어빌2", "effect": "상담 선택 시 댄스 증가" },
+          { "slot": "어빌4", "effect": "시험 종료 시 댄스 증가" },
+          { "slot": "어빌5", "effect": "SR 스킬 카드 획득 시 댄스 증가" }
+        ]
+      },
+      "notes": ["한국어 이름은 나무위키식 표기를 참고한 임시 반영", "세부 수치는 4돌 기준 근사치"]
+    },
+    "limitBreak": {
+      "defaultSelectedLevel": 4,
+      "maxKnownLevel": 4,
+      "statScaleByLevel": { "0": 0.84, "1": 0.89, "2": 0.93, "3": 0.97, "4": 1 },
+      "snapshots": {
+        "4": {
+          "baseScore": 67,
+          "trainingBonus": { "vocal": 0, "dance": 15, "visual": 1, "mental": 4 },
+          "examBonus": { "vocal": 0, "dance": 8, "visual": 0 },
+          "tags": ["logic", "dance-core", "support"],
+          "synergyTags": ["logic", "dance-core"],
+          "description": "상담과 시험 종료 보너스를 묶어서 쓰기 쉬운 로직 SR 카드입니다."
+        }
+      }
+    }
+  },
+  {
+    "id": "sp-sr-hyoujo-no-uragawa",
+    "slug": "hyoujo-no-uragawa",
+    "names": { "ko": "표정 뒤편의 진심", "ja": "表情の裏側" },
+    "rarity": "SR",
+    "type": "visual",
+    "plan": "logic",
+    "image": { "thumbnailPath": "/support-cards/placeholder-card.svg", "alt": "표정 뒤편의 진심 카드 이미지" },
+    "source": { "defaultDataBasis": "max-breakthrough", "referenceUrls": ["https://seesaawiki.jp/gakumasu/"], "note": "위키 빠른표 구조에 맞춘 임시 입력. 본문 대조 필요" },
+    "raw": {
+      "wikiQuickReference": {
+        "typeLabel": "비주얼",
+        "planLabel": "로직",
+        "event1": { "reward": "작은 칭찬", "effect": "비주얼+15" },
+        "event2": "SP+12",
+        "event3": "비주얼 SR 스킬 카드 추가",
+        "abilities": [
+          { "slot": "어빌1", "effect": "초기 비주얼 증가" },
+          { "slot": "어빌2", "effect": "SP 스킬 카드 사용 시 비주얼 증가" },
+          { "slot": "어빌4", "effect": "시험 종료 시 비주얼 증가" },
+          { "slot": "어빌5", "effect": "SR 스킬 카드 획득 시 비주얼 증가" }
+        ]
+      },
+      "notes": ["한국어 이름은 임시 번역", "빠른표 문구 확정 필요"]
+    },
+    "limitBreak": {
+      "defaultSelectedLevel": 4,
+      "maxKnownLevel": 4,
+      "statScaleByLevel": { "0": 0.84, "1": 0.89, "2": 0.93, "3": 0.97, "4": 1 },
+      "snapshots": {
+        "4": {
+          "baseScore": 66,
+          "trainingBonus": { "vocal": 0, "dance": 1, "visual": 15, "mental": 4 },
+          "examBonus": { "vocal": 0, "dance": 0, "visual": 8 },
+          "tags": ["logic", "visual-core", "sp-rate"],
+          "synergyTags": ["logic", "visual-core"],
+          "description": "비주얼 수치와 SP 계열 보조를 동시에 챙기는 로직 SR 카드입니다."
+        }
+      }
+    }
+  },
+  {
+    "id": "sp-sr-kangaeru-jikan",
+    "slug": "kangaeru-jikan",
+    "names": { "ko": "생각하는 시간도 레슨이야", "ja": "考える時間もレッスン" },
+    "rarity": "SR",
+    "type": "mental",
+    "plan": "logic",
+    "image": { "thumbnailPath": "/support-cards/placeholder-card.svg", "alt": "생각하는 시간도 레슨이야 카드 이미지" },
+    "source": { "defaultDataBasis": "max-breakthrough", "referenceUrls": ["https://seesaawiki.jp/gakumasu/"], "note": "위키 빠른표 구조에 맞춘 임시 입력. 본문 대조 필요" },
+    "raw": {
+      "wikiQuickReference": {
+        "typeLabel": "메ンタル",
+        "planLabel": "로직",
+        "event1": { "reward": "정리된 메모", "effect": "체력+8" },
+        "event2": "SP+10",
+        "event3": "회복계 SR 스킬 카드 추가",
+        "abilities": [
+          { "slot": "어빌1", "effect": "초기 체력 증가" },
+          { "slot": "어빌2", "effect": "휴식 선택 시 SP 증가" },
+          { "slot": "어빌4", "effect": "시험 종료 시 SP 증가" },
+          { "slot": "어빌5", "effect": "회복계 스킬 카드 획득 시 체력 보조" }
+        ]
+      },
+      "notes": ["정확한 원문 확인 전까지 회복 보조형으로 임시 분류"]
+    },
+    "limitBreak": {
+      "defaultSelectedLevel": 4,
+      "maxKnownLevel": 4,
+      "statScaleByLevel": { "0": 0.84, "1": 0.89, "2": 0.93, "3": 0.97, "4": 1 },
+      "snapshots": {
+        "4": {
+          "baseScore": 64,
+          "trainingBonus": { "vocal": 1, "dance": 1, "visual": 1, "mental": 15 },
+          "examBonus": { "vocal": 1, "dance": 1, "visual": 1 },
+          "tags": ["logic", "recovery", "support"],
+          "synergyTags": ["logic", "recovery"],
+          "description": "체력과 SP 관리를 안정적으로 돕는 로직 SR 카드입니다."
+        }
+      }
+    }
+  }
+]

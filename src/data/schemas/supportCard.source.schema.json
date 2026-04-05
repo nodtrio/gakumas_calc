@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "supportCard.source.schema.json",
+  "title": "SupportCardSourceRecord",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "slug", "names", "rarity", "type", "plan", "image", "source", "raw", "limitBreak"],
+  "properties": {
+    "id": { "type": "string" },
+    "slug": { "type": "string" },
+    "names": { "type": "object", "additionalProperties": false, "required": ["ko", "ja"], "properties": { "ko": { "type": "string" }, "ja": { "type": "string" } } },
+    "rarity": { "type": "string", "enum": ["R", "SR", "SSR"] },
+    "type": { "type": "string", "enum": ["vocal", "dance", "visual", "mental"] },
+    "plan": { "type": "string", "enum": ["free", "sense", "logic", "anomaly"] },
+    "image": { "type": "object", "additionalProperties": false, "required": ["thumbnailPath", "alt"], "properties": { "thumbnailPath": { "type": "string" }, "alt": { "type": "string" } } },
+    "source": { "type": "object", "additionalProperties": false, "required": ["defaultDataBasis", "referenceUrls", "note"], "properties": { "defaultDataBasis": { "type": "string", "const": "max-breakthrough" }, "referenceUrls": { "type": "array", "items": { "type": "string", "format": "uri" } }, "note": { "type": "string" } } },
+    "raw": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["wikiQuickReference", "notes"],
+      "properties": {
+        "wikiQuickReference": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["typeLabel", "planLabel", "event1", "event2", "event3", "abilities"],
+          "properties": {
+            "typeLabel": { "type": "string" },
+            "planLabel": { "type": "string" },
+            "event1": { "type": "object", "additionalProperties": false, "required": ["reward", "effect"], "properties": { "reward": { "type": "string" }, "effect": { "type": "string" } } },
+            "event2": { "type": "string" },
+            "event3": { "type": "string" },
+            "abilities": { "type": "array", "items": { "type": "object", "additionalProperties": false, "required": ["slot", "effect"], "properties": { "slot": { "type": "string", "enum": ["アビ1", "アビ2", "アビ4", "アビ5"] }, "effect": { "type": "string" } } } }
+          }
+        },
+        "notes": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "limitBreak": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["defaultSelectedLevel", "maxKnownLevel", "statScaleByLevel", "snapshots"],
+      "properties": {
+        "defaultSelectedLevel": { "type": "integer", "enum": [0, 1, 2, 3, 4] },
+        "maxKnownLevel": { "type": "integer", "enum": [0, 1, 2, 3, 4] },
+        "statScaleByLevel": { "type": "object", "additionalProperties": false, "required": ["0", "1", "2", "3", "4"], "properties": { "0": { "type": "number" }, "1": { "type": "number" }, "2": { "type": "number" }, "3": { "type": "number" }, "4": { "type": "number" } } },
+        "snapshots": { "type": "object", "additionalProperties": false, "properties": { "0": { "$ref": "#/$defs/snapshot" }, "1": { "$ref": "#/$defs/snapshot" }, "2": { "$ref": "#/$defs/snapshot" }, "3": { "$ref": "#/$defs/snapshot" }, "4": { "$ref": "#/$defs/snapshot" } } }
+      }
+    }
+  },
+  "$defs": {
+    "snapshot": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["baseScore", "trainingBonus", "examBonus", "tags", "synergyTags", "description"],
+      "properties": {
+        "baseScore": { "type": "number" },
+        "trainingBonus": { "$ref": "#/$defs/statBlock" },
+        "examBonus": { "$ref": "#/$defs/examStatBlock" },
+        "tags": { "type": "array", "items": { "type": "string" } },
+        "synergyTags": { "type": "array", "items": { "type": "string" } },
+        "description": { "type": "string" }
+      }
+    },
+    "statBlock": { "type": "object", "additionalProperties": false, "required": ["vocal", "dance", "visual", "mental"], "properties": { "vocal": { "type": "number" }, "dance": { "type": "number" }, "visual": { "type": "number" }, "mental": { "type": "number" } } },
+    "examStatBlock": { "type": "object", "additionalProperties": false, "required": ["vocal", "dance", "visual"], "properties": { "vocal": { "type": "number" }, "dance": { "type": "number" }, "visual": { "type": "number" } } }
+  }
+}

@@ -1,7 +1,7 @@
 {
   "id": "policy-midterm-60000",
-  "name": "Midterm 60000",
-  "description": "MVP example policy that assumes exam outputs are capped around 60 percent.",
+  "name": "중간고사 6만점 가정",
+  "description": "시험 점수가 대략 60퍼센트 수준으로 제한된다고 가정하는 예시 정책입니다.",
   "examScoreAssumption": {
     "mode": "fixed-rate",
     "scoreRate": 0.6

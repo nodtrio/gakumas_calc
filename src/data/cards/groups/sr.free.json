@@ -1,0 +1,38 @@
+[
+  {
+    "id": "sp-sr-nakayoshi-no-akashi",
+    "slug": "nakayoshi-no-akashi",
+    "names": { "ko": "사이좋음의 증표", "ja": "仲良しの証" },
+    "rarity": "SR",
+    "type": "dance",
+    "plan": "free",
+    "image": { "thumbnailPath": "/support-cards/sp-sr-nakayoshi-no-akashi.svg", "alt": "사이좋음의 증표 카드 이미지" },
+    "source": { "defaultDataBasis": "max-breakthrough", "referenceUrls": ["https://seesaawiki.jp/gakumasu/d/%25A5%25B5%25A5%25DD%25A1%25BC%25A5%25C8%25A5%25AB%25A1%25BC%25A5%25C9%25C7%25BD%25CE%25CF%25C1%25E1%25B8%25AB%25C9%25BD"], "note": "SR 카드군 확장 샘플" },
+    "raw": { "wikiQuickReference": { "typeLabel": "ｱDa", "planLabel": "フリー", "event1": { "reward": "함께라면 괜찮아", "effect": "체력+6" }, "event2": "댄스+15", "event3": "SR 스킬 카드 추가", "abilities": [ { "slot": "アビ1", "effect": "초기 댄스 상승" }, { "slot": "アビ2", "effect": "서포트 카드 이벤트 발생 시 댄스 상승" }, { "slot": "アビ4", "effect": "댄스 레슨 종료 시 댄스 상승" }, { "slot": "アビ5", "effect": "SR 스킬 카드 획득 시 댄스 상승" } ] }, "notes": ["한국어 이름은 임시 번역"] },
+    "limitBreak": { "defaultSelectedLevel": 4, "maxKnownLevel": 4, "statScaleByLevel": { "0": 0.84, "1": 0.89, "2": 0.93, "3": 0.97, "4": 1 }, "snapshots": { "4": { "baseScore": 70, "trainingBonus": { "vocal": 0, "dance": 14, "visual": 2, "mental": 4 }, "examBonus": { "vocal": 0, "dance": 9, "visual": 0 }, "tags": ["free", "dance-core", "support"], "synergyTags": ["free", "dance-core"], "description": "가벼운 회복과 댄스 성장을 함께 챙기기 좋은 프리 SR 카드입니다." } } }
+  },
+  {
+    "id": "sp-sr-ima-wa-aete",
+    "slug": "ima-wa-aete-se-wo-mukete",
+    "names": { "ko": "지금은 일부러 등을 돌리고", "ja": "今はあえて、背を向けて" },
+    "rarity": "SR",
+    "type": "vocal",
+    "plan": "free",
+    "image": { "thumbnailPath": "/support-cards/placeholder-card.svg", "alt": "지금은 일부러 등을 돌리고 카드 이미지" },
+    "source": { "defaultDataBasis": "max-breakthrough", "referenceUrls": ["https://seesaawiki.jp/gakumasu/d/Q%2526A"], "note": "Q&A 추천 카드명 기반 임시 입력" },
+    "raw": { "wikiQuickReference": { "typeLabel": "ボーカル", "planLabel": "フリー", "event1": { "reward": "추후 확인", "effect": "1돌 이상 추천" }, "event2": "추후 확인", "event3": "추후 확인", "abilities": [ { "slot": "アビ1", "effect": "파라미터 보너스와 SP율을 함께 챙기는 SR" } ] }, "notes": ["한국어 이름은 임시 번역"] },
+    "limitBreak": { "defaultSelectedLevel": 4, "maxKnownLevel": 4, "statScaleByLevel": { "0": 0.84, "1": 0.89, "2": 0.93, "3": 0.97, "4": 1 }, "snapshots": { "4": { "baseScore": 68, "trainingBonus": { "vocal": 14, "dance": 0, "visual": 0, "mental": 4 }, "examBonus": { "vocal": 8, "dance": 0, "visual": 0 }, "tags": ["vocal-core", "support", "sp-rate"], "synergyTags": ["vocal-core", "sp-rate"], "description": "Q&A에서 1돌 이상 추천된 보컬 SR 카드입니다." } } }
+  },
+  {
+    "id": "sp-sr-kiso-ouyou",
+    "slug": "kiso-ouyou",
+    "names": { "ko": "기초＞응용", "ja": "基礎＞応用" },
+    "rarity": "SR",
+    "type": "vocal",
+    "plan": "free",
+    "image": { "thumbnailPath": "/support-cards/placeholder-card.svg", "alt": "기초 응용 카드 이미지" },
+    "source": { "defaultDataBasis": "max-breakthrough", "referenceUrls": ["https://seesaawiki.jp/gakumasu/d/Q%2526A"], "note": "Q&A 추천 카드명 기반 임시 입력" },
+    "raw": { "wikiQuickReference": { "typeLabel": "ボーカル", "planLabel": "フリー", "event1": { "reward": "추후 확인", "effect": "1돌 이상 추천" }, "event2": "추후 확인", "event3": "추후 확인", "abilities": [ { "slot": "アビ1", "effect": "SP율 계열 추천 SR 카드" } ] }, "notes": ["한국어 이름은 임시 번역"] },
+    "limitBreak": { "defaultSelectedLevel": 4, "maxKnownLevel": 4, "statScaleByLevel": { "0": 0.84, "1": 0.89, "2": 0.93, "3": 0.97, "4": 1 }, "snapshots": { "4": { "baseScore": 67, "trainingBonus": { "vocal": 13, "dance": 0, "visual": 0, "mental": 4 }, "examBonus": { "vocal": 8, "dance": 0, "visual": 0 }, "tags": ["vocal-core", "support", "sp-rate"], "synergyTags": ["vocal-core", "sp-rate"], "description": "Q&A에서 1돌 이상 추천된 보컬 SR 카드입니다." } } }
+  }
+]

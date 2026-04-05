@@ -1,0 +1,166 @@
+[
+  {
+    "id": "sp-ssr-ready-set-go",
+    "slug": "ready-set-go",
+    "names": { "ko": "레디, 셋, 고!", "ja": "レディ・セット、ゴー！" },
+    "rarity": "SSR",
+    "type": "vocal",
+    "plan": "sense",
+    "image": { "thumbnailPath": "/support-cards/sp-ssr-ready-set-go.svg", "alt": "레디, 셋, 고! 카드 이미지" },
+    "source": { "defaultDataBasis": "max-breakthrough", "referenceUrls": ["https://seesaawiki.jp/gakumasu/d/%25A5%25AC%25A5%25B7%25A5%25E3%25B0%25EC%25CD%25F7"], "note": "가샤 목록과 위키를 함께 참고한 샘플" },
+    "raw": {
+      "wikiQuickReference": {
+        "typeLabel": "보컬",
+        "planLabel": "센스",
+        "event1": { "reward": "스트레칭 타임", "effect": "집중+4" },
+        "event2": "보컬+20",
+        "event3": "집중+4",
+        "abilities": [
+          { "slot": "어빌1", "effect": "초기 보컬 증가" },
+          { "slot": "어빌2", "effect": "집중 상태에서 보컬 증가" },
+          { "slot": "어빌4", "effect": "보컬 SP 레슨 종료 시 보컬 증가" },
+          { "slot": "어빌5", "effect": "SSR 스킬 카드 획득 시 보컬 증가" }
+        ]
+      },
+      "notes": ["일부 이벤트 문구는 빠른표 기준 요약"]
+    },
+    "limitBreak": {
+      "defaultSelectedLevel": 4,
+      "maxKnownLevel": 4,
+      "statScaleByLevel": { "0": 0.84, "1": 0.89, "2": 0.93, "3": 0.97, "4": 1 },
+      "snapshots": {
+        "4": {
+          "baseScore": 82,
+          "trainingBonus": { "vocal": 19, "dance": 0, "visual": 0, "mental": 2 },
+          "examBonus": { "vocal": 17, "dance": 0, "visual": 0 },
+          "tags": ["sense", "lesson", "vocal-core"],
+          "synergyTags": ["sense", "vocal-core", "good-condition"],
+          "description": "센스 플랜에서 보컬 성장과 집중 상태 활용을 함께 노릴 수 있는 카드입니다."
+        }
+      }
+    }
+  },
+  {
+    "id": "sp-ssr-cooldown",
+    "slug": "cooldown-ga-taisetsu-yo",
+    "names": { "ko": "쿨다운이 중요해!", "ja": "クールダウンが大切よ！" },
+    "rarity": "SSR",
+    "type": "visual",
+    "plan": "sense",
+    "image": { "thumbnailPath": "/support-cards/sp-ssr-cooldown.svg", "alt": "쿨다운이 중요해! 카드 이미지" },
+    "source": { "defaultDataBasis": "max-breakthrough", "referenceUrls": ["https://seesaawiki.jp/gakumasu/d/%25A5%25B5%25A5%25DD%25A1%25BC%25A5%25C8%25A5%25AB%25A1%25BC%25A5%25C9%25C7%25BD%25CE%25CF%25C1%25E1%25B8%25AB%25C9%25BD"], "note": "위키 빠른표 기반 샘플" },
+    "raw": {
+      "wikiQuickReference": {
+        "typeLabel": "비주얼",
+        "planLabel": "센스",
+        "event1": { "reward": "선호곡으로 리셋", "effect": "집중+3, 체력+4" },
+        "event2": "비주얼+20",
+        "event3": "센스 SSR 스킬 카드 추가",
+        "abilities": [
+          { "slot": "어빌1", "effect": "초기 비주얼 증가" },
+          { "slot": "어빌2", "effect": "집중 스킬 카드 획득 시 비주얼 증가" },
+          { "slot": "어빌4", "effect": "비주얼 SP 레슨 종료 시 비주얼 증가" },
+          { "slot": "어빌5", "effect": "멘탈 스킬 카드 획득 시 비주얼 증가" }
+        ]
+      },
+      "notes": ["일부 빠른표 문구를 요약해 입력"]
+    },
+    "limitBreak": {
+      "defaultSelectedLevel": 4,
+      "maxKnownLevel": 4,
+      "statScaleByLevel": { "0": 0.84, "1": 0.89, "2": 0.93, "3": 0.97, "4": 1 },
+      "snapshots": {
+        "4": {
+          "baseScore": 81,
+          "trainingBonus": { "vocal": 0, "dance": 0, "visual": 19, "mental": 3 },
+          "examBonus": { "vocal": 0, "dance": 0, "visual": 17 },
+          "tags": ["sense", "visual-core", "recovery"],
+          "synergyTags": ["sense", "visual-core", "good-condition"],
+          "description": "비주얼 축 센스 운영에서 안정성과 점수 효율을 함께 챙기기 좋은 카드입니다."
+        }
+      }
+    }
+  },
+  {
+    "id": "sp-ssr-kagayaku-break",
+    "slug": "kagayaku-break-time",
+    "names": { "ko": "반짝이는 브레이크 타임", "ja": "きらめくブレイクタイム" },
+    "rarity": "SSR",
+    "type": "dance",
+    "plan": "sense",
+    "image": { "thumbnailPath": "/support-cards/placeholder-card.svg", "alt": "반짝이는 브레이크 타임 카드 이미지" },
+    "source": { "defaultDataBasis": "max-breakthrough", "referenceUrls": ["https://seesaawiki.jp/gakumasu/"], "note": "임시 입력. 본문 대조 필요" },
+    "raw": {
+      "wikiQuickReference": {
+        "typeLabel": "댄스",
+        "planLabel": "센스",
+        "event1": { "reward": "깊은 호흡", "effect": "좋은 컨디션+1" },
+        "event2": "댄스+20",
+        "event3": "센스 SSR 스킬 카드 추가",
+        "abilities": [
+          { "slot": "어빌1", "effect": "초기 댄스 증가" },
+          { "slot": "어빌2", "effect": "좋은 컨디션 상태에서 댄스 증가" },
+          { "slot": "어빌4", "effect": "댄스 레슨 종료 시 댄스 증가" },
+          { "slot": "어빌5", "effect": "강화 스킬 카드 획득 시 댄스 증가" }
+        ]
+      },
+      "notes": ["실제 카드명 확정 전까지 임시 데이터"]
+    },
+    "limitBreak": {
+      "defaultSelectedLevel": 4,
+      "maxKnownLevel": 4,
+      "statScaleByLevel": { "0": 0.84, "1": 0.89, "2": 0.93, "3": 0.97, "4": 1 },
+      "snapshots": {
+        "4": {
+          "baseScore": 80,
+          "trainingBonus": { "vocal": 0, "dance": 18, "visual": 0, "mental": 3 },
+          "examBonus": { "vocal": 0, "dance": 16, "visual": 0 },
+          "tags": ["sense", "dance-core", "good-condition"],
+          "synergyTags": ["sense", "dance-core", "good-condition"],
+          "description": "좋은 컨디션과 댄스 레슨 효율을 함께 밀어주는 센스 SSR 카드입니다."
+        }
+      }
+    }
+  },
+  {
+    "id": "sp-ssr-senaka-wo-osu",
+    "slug": "senaka-wo-osu-oto",
+    "names": { "ko": "등을 밀어주는 소리", "ja": "背中を押す音" },
+    "rarity": "SSR",
+    "type": "mental",
+    "plan": "sense",
+    "image": { "thumbnailPath": "/support-cards/placeholder-card.svg", "alt": "등을 밀어주는 소리 카드 이미지" },
+    "source": { "defaultDataBasis": "max-breakthrough", "referenceUrls": ["https://seesaawiki.jp/gakumasu/"], "note": "임시 입력. 본문 대조 필요" },
+    "raw": {
+      "wikiQuickReference": {
+        "typeLabel": "멘탈",
+        "planLabel": "센스",
+        "event1": { "reward": "다정한 격려", "effect": "체력+8" },
+        "event2": "SP+18",
+        "event3": "센스 SSR 스킬 카드 추가",
+        "abilities": [
+          { "slot": "어빌1", "effect": "초기 체력 증가" },
+          { "slot": "어빌2", "effect": "집중 상태에서 SP 증가" },
+          { "slot": "어빌4", "effect": "시험 종료 시 SP 증가" },
+          { "slot": "어빌5", "effect": "회복 행동 시 추가 SP 획득" }
+        ]
+      },
+      "notes": ["실제 카드명 확정 전까지 임시 데이터"]
+    },
+    "limitBreak": {
+      "defaultSelectedLevel": 4,
+      "maxKnownLevel": 4,
+      "statScaleByLevel": { "0": 0.84, "1": 0.89, "2": 0.93, "3": 0.97, "4": 1 },
+      "snapshots": {
+        "4": {
+          "baseScore": 77,
+          "trainingBonus": { "vocal": 2, "dance": 2, "visual": 2, "mental": 16 },
+          "examBonus": { "vocal": 1, "dance": 1, "visual": 1 },
+          "tags": ["sense", "support", "sp-rate"],
+          "synergyTags": ["sense", "sp-rate", "recovery"],
+          "description": "센스 덱에서 체력과 SP 관리를 함께 보조하는 SSR 카드입니다."
+        }
+      }
+    }
+  }
+]

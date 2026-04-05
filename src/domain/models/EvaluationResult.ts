@@ -1,4 +1,4 @@
-import type { SupportCard } from "./SupportCard";
+import type { LimitBreakLevel, SupportCard } from "./SupportCard";
 
 export interface ScoreBreakdown {
   base: number;
@@ -15,6 +15,9 @@ export interface CardScoreDetail {
   totalScore: number;
   breakdown: ScoreBreakdown;
   reasons: string[];
+  selectedLimitBreakLevel: LimitBreakLevel;
+  isEstimated: boolean;
+  estimatedFromLevel: LimitBreakLevel;
 }
 
 export interface DeckEvaluationResult {
@@ -22,4 +25,7 @@ export interface DeckEvaluationResult {
   totalScore: number;
   cardDetails: CardScoreDetail[];
   reasons: string[];
+  selectedLimitBreakLevel: LimitBreakLevel;
+  isUsingOwnedCollection: boolean;
+  ownedCardCount: number;
 }

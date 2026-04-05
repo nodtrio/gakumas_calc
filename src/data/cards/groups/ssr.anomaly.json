@@ -1,0 +1,125 @@
+[
+  {
+    "id": "sp-ssr-temari-recital",
+    "slug": "temari-no-recital-da-ne",
+    "names": { "ko": "테마리의 리사이틀이네", "ja": "手毬のリサイタル、だね" },
+    "rarity": "SSR",
+    "type": "dance",
+    "plan": "anomaly",
+    "image": { "thumbnailPath": "/support-cards/sp-ssr-temari-recital.svg", "alt": "테마리의 리사이틀이네 카드 이미지" },
+    "source": { "defaultDataBasis": "max-breakthrough", "referenceUrls": ["https://seesaawiki.jp/gakumasu/d/%25A5%25B5%25A5%25DD%25A1%25BC%25A5%25C8%25A5%25AB%25A1%25BC%25A5%25C9%25C7%25BD%25CE%25CF%25C1%25E1%25B8%25AB%25C9%25BD"], "note": "위키 빠른표 기반 샘플" },
+    "raw": {
+      "wikiQuickReference": {
+        "typeLabel": "댄스",
+        "planLabel": "어노말리",
+        "event1": { "reward": "무대의 잔향", "effect": "댄스+20" },
+        "event2": "체력+6",
+        "event3": "어노말리 SSR 스킬 카드 추가",
+        "abilities": [
+          { "slot": "어빌1", "effect": "초기 댄스 증가" },
+          { "slot": "어빌2", "effect": "불안정 상태에서 댄스 증가" },
+          { "slot": "어빌4", "effect": "시험 종료 시 댄스 증가" },
+          { "slot": "어빌5", "effect": "리스크형 카드 획득 시 댄스 증가" }
+        ]
+      },
+      "notes": ["빠른표 구조를 기준으로 재정리"]
+    },
+    "limitBreak": {
+      "defaultSelectedLevel": 4,
+      "maxKnownLevel": 4,
+      "statScaleByLevel": { "0": 0.84, "1": 0.89, "2": 0.93, "3": 0.97, "4": 1 },
+      "snapshots": {
+        "4": {
+          "baseScore": 82,
+          "trainingBonus": { "vocal": 0, "dance": 19, "visual": 0, "mental": 3 },
+          "examBonus": { "vocal": 0, "dance": 16, "visual": 0 },
+          "tags": ["anomaly", "dance-core", "risk-reward"],
+          "synergyTags": ["anomaly", "dance-core", "risk-reward"],
+          "description": "리스크를 감수하는 대신 댄스 고점을 노릴 수 있는 어노말리 SSR 카드입니다."
+        }
+      }
+    }
+  },
+  {
+    "id": "sp-ssr-gakuen-no-netsu",
+    "slug": "gakuen-no-netsu-wa-owaranai",
+    "names": { "ko": "학원의 열기는 식지 않아", "ja": "学園の熱は終わらない" },
+    "rarity": "SSR",
+    "type": "vocal",
+    "plan": "anomaly",
+    "image": { "thumbnailPath": "/support-cards/placeholder-card.svg", "alt": "학원의 열기는 식지 않아 카드 이미지" },
+    "source": { "defaultDataBasis": "max-breakthrough", "referenceUrls": ["https://seesaawiki.jp/gakumasu/"], "note": "임시 입력. 본문 대조 필요" },
+    "raw": {
+      "wikiQuickReference": {
+        "typeLabel": "보컬",
+        "planLabel": "어노말리",
+        "event1": { "reward": "남은 열기", "effect": "보컬+20" },
+        "event2": "체력+4",
+        "event3": "어노말리 SSR 스킬 카드 추가",
+        "abilities": [
+          { "slot": "어빌1", "effect": "초기 보컬 증가" },
+          { "slot": "어빌2", "effect": "체력 50% 이하에서 보컬 증가" },
+          { "slot": "어빌4", "effect": "시험 종료 시 보컬 증가" },
+          { "slot": "어빌5", "effect": "회복형 카드 획득 시 보컬 증가" }
+        ]
+      },
+      "notes": ["실제 카드명 확정 전까지 임시 데이터"]
+    },
+    "limitBreak": {
+      "defaultSelectedLevel": 4,
+      "maxKnownLevel": 4,
+      "statScaleByLevel": { "0": 0.84, "1": 0.89, "2": 0.93, "3": 0.97, "4": 1 },
+      "snapshots": {
+        "4": {
+          "baseScore": 80,
+          "trainingBonus": { "vocal": 18, "dance": 0, "visual": 0, "mental": 3 },
+          "examBonus": { "vocal": 15, "dance": 0, "visual": 0 },
+          "tags": ["anomaly", "vocal-core", "risk-reward"],
+          "synergyTags": ["anomaly", "vocal-core", "recovery"],
+          "description": "체력 리스크를 감수하면서 보컬 성장을 크게 노릴 수 있는 어노말리 SSR 카드입니다."
+        }
+      }
+    }
+  },
+  {
+    "id": "sp-ssr-sukima-no-shisen",
+    "slug": "sukima-no-shisen",
+    "names": { "ko": "틈새의 시선", "ja": "すきまの視線" },
+    "rarity": "SSR",
+    "type": "visual",
+    "plan": "anomaly",
+    "image": { "thumbnailPath": "/support-cards/placeholder-card.svg", "alt": "틈새의 시선 카드 이미지" },
+    "source": { "defaultDataBasis": "max-breakthrough", "referenceUrls": ["https://seesaawiki.jp/gakumasu/"], "note": "임시 입력. 본문 대조 필요" },
+    "raw": {
+      "wikiQuickReference": {
+        "typeLabel": "비주얼",
+        "planLabel": "어노말리",
+        "event1": { "reward": "낯선 착안", "effect": "비주얼+20" },
+        "event2": "체력+4",
+        "event3": "어노말리 SSR 스킬 카드 추가",
+        "abilities": [
+          { "slot": "어빌1", "effect": "초기 비주얼 증가" },
+          { "slot": "어빌2", "effect": "불안정 상태에서 비주얼 증가" },
+          { "slot": "어빌4", "effect": "시험 종료 시 비주얼 증가" },
+          { "slot": "어빌5", "effect": "상태 이상 해제 시 비주얼 증가" }
+        ]
+      },
+      "notes": ["실제 카드명 확정 전까지 임시 데이터"]
+    },
+    "limitBreak": {
+      "defaultSelectedLevel": 4,
+      "maxKnownLevel": 4,
+      "statScaleByLevel": { "0": 0.84, "1": 0.89, "2": 0.93, "3": 0.97, "4": 1 },
+      "snapshots": {
+        "4": {
+          "baseScore": 79,
+          "trainingBonus": { "vocal": 0, "dance": 0, "visual": 18, "mental": 3 },
+          "examBonus": { "vocal": 0, "dance": 0, "visual": 15 },
+          "tags": ["anomaly", "visual-core", "risk-reward"],
+          "synergyTags": ["anomaly", "visual-core"],
+          "description": "불안정 상태를 활용하는 비주얼 중심 어노말리 SSR 카드입니다."
+        }
+      }
+    }
+  }
+]

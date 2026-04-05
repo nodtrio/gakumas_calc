@@ -1,7 +1,7 @@
 {
   "id": "policy-perfect-exam",
-  "name": "Perfect Exam",
-  "description": "Assume every exam and audition score reaches the theoretical maximum.",
+  "name": "시험 만점 가정",
+  "description": "모든 시험과 오디션 점수가 이론상 최대치에 도달한다고 가정합니다.",
   "examScoreAssumption": {
     "mode": "perfect",
     "scoreRate": 1

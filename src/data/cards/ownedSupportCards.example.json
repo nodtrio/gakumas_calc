@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "cards": [
+    { "cardId": "sp-ssr-omoide-takarabako", "owned": true, "limitBreakLevel": 4 },
+    { "cardId": "sp-ssr-temari-recital", "owned": true, "limitBreakLevel": 2 },
+    { "cardId": "sp-ssr-ready-set-go", "owned": true, "limitBreakLevel": 1 },
+    { "cardId": "sp-sr-nakayoshi-no-akashi", "owned": true, "limitBreakLevel": 3 },
+    { "cardId": "sp-sr-gutsugutsu-ii-nioi", "owned": false, "limitBreakLevel": 0 }
+  ]
+}

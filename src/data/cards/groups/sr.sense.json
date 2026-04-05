@@ -1,0 +1,125 @@
+[
+  {
+    "id": "sp-sr-ohisama-egao",
+    "slug": "ohisama-egao-mankai-futatsu",
+    "names": { "ko": "햇살 미소, 만개한 두 송이", "ja": "おひさま笑顔、満開のふたつ" },
+    "rarity": "SR",
+    "type": "visual",
+    "plan": "sense",
+    "image": { "thumbnailPath": "/support-cards/sp-sr-ohisama-egao.svg", "alt": "햇살 미소, 만개한 두 송이 카드 이미지" },
+    "source": { "defaultDataBasis": "max-breakthrough", "referenceUrls": ["https://seesaawiki.jp/gakumasu/d/%25A5%25B5%25A5%25DD%25A1%25BC%25A5%25C8%25A5%25AB%25A1%25BC%25A5%25C9%25C7%25BD%25CE%25CF%25C1%25E1%25B8%25AB%25C9%25BD"], "note": "빠른표 기반 샘플. 세부 문구는 추가 대조 예정" },
+    "raw": {
+      "wikiQuickReference": {
+        "typeLabel": "비주얼",
+        "planLabel": "센스",
+        "event1": { "reward": "지지 않는 온기", "effect": "집중+2" },
+        "event2": "비주얼+15",
+        "event3": "센스 SR 스킬 카드 추가",
+        "abilities": [
+          { "slot": "어빌1", "effect": "초기 비주얼 증가" },
+          { "slot": "어빌2", "effect": "집중 상태에서 비주얼 증가" },
+          { "slot": "어빌4", "effect": "비주얼 SP 레슨 종료 시 비주얼 증가" },
+          { "slot": "어빌5", "effect": "SR 스킬 카드 획득 시 비주얼 증가" }
+        ]
+      },
+      "notes": ["한국어 이름 반영", "세부 수치는 4돌 기준 근사치"]
+    },
+    "limitBreak": {
+      "defaultSelectedLevel": 4,
+      "maxKnownLevel": 4,
+      "statScaleByLevel": { "0": 0.84, "1": 0.89, "2": 0.93, "3": 0.97, "4": 1 },
+      "snapshots": {
+        "4": {
+          "baseScore": 68,
+          "trainingBonus": { "vocal": 0, "dance": 1, "visual": 15, "mental": 4 },
+          "examBonus": { "vocal": 0, "dance": 0, "visual": 8 },
+          "tags": ["sense", "visual-core", "support"],
+          "synergyTags": ["sense", "visual-core"],
+          "description": "비주얼과 집중 시너지를 노리기 쉬운 센스 SR 카드입니다."
+        }
+      }
+    }
+  },
+  {
+    "id": "sp-sr-mabataki-no-aizu",
+    "slug": "mabataki-no-aizu",
+    "names": { "ko": "눈빛으로 주고받는 신호", "ja": "まばたきの合図" },
+    "rarity": "SR",
+    "type": "dance",
+    "plan": "sense",
+    "image": { "thumbnailPath": "/support-cards/placeholder-card.svg", "alt": "눈빛으로 주고받는 신호 카드 이미지" },
+    "source": { "defaultDataBasis": "max-breakthrough", "referenceUrls": ["https://seesaawiki.jp/gakumasu/"], "note": "임시 입력. 본문 대조 필요" },
+    "raw": {
+      "wikiQuickReference": {
+        "typeLabel": "댄스",
+        "planLabel": "센스",
+        "event1": { "reward": "맞춘 호흡", "effect": "집중+2" },
+        "event2": "댄스+15",
+        "event3": "센스 SR 스킬 카드 추가",
+        "abilities": [
+          { "slot": "어빌1", "effect": "초기 댄스 증가" },
+          { "slot": "어빌2", "effect": "집중 상태에서 댄스 증가" },
+          { "slot": "어빌4", "effect": "시험 종료 시 댄스 증가" },
+          { "slot": "어빌5", "effect": "강화형 스킬 카드 획득 시 댄스 증가" }
+        ]
+      },
+      "notes": ["한국어 이름은 임시 반영"]
+    },
+    "limitBreak": {
+      "defaultSelectedLevel": 4,
+      "maxKnownLevel": 4,
+      "statScaleByLevel": { "0": 0.84, "1": 0.89, "2": 0.93, "3": 0.97, "4": 1 },
+      "snapshots": {
+        "4": {
+          "baseScore": 67,
+          "trainingBonus": { "vocal": 0, "dance": 15, "visual": 0, "mental": 4 },
+          "examBonus": { "vocal": 0, "dance": 8, "visual": 0 },
+          "tags": ["sense", "dance-core", "support"],
+          "synergyTags": ["sense", "dance-core", "good-condition"],
+          "description": "집중과 댄스 레슨 흐름을 함께 챙기는 센스 SR 카드입니다."
+        }
+      }
+    }
+  },
+  {
+    "id": "sp-sr-asa-no-stride",
+    "slug": "asa-no-stride",
+    "names": { "ko": "아침의 스트라이드", "ja": "朝のストライド" },
+    "rarity": "SR",
+    "type": "vocal",
+    "plan": "sense",
+    "image": { "thumbnailPath": "/support-cards/placeholder-card.svg", "alt": "아침의 스트라이드 카드 이미지" },
+    "source": { "defaultDataBasis": "max-breakthrough", "referenceUrls": ["https://seesaawiki.jp/gakumasu/"], "note": "임시 입력. 본문 대조 필요" },
+    "raw": {
+      "wikiQuickReference": {
+        "typeLabel": "보컬",
+        "planLabel": "센스",
+        "event1": { "reward": "가벼운 구호", "effect": "좋은 컨디션+1" },
+        "event2": "보컬+15",
+        "event3": "센스 SR 스킬 카드 추가",
+        "abilities": [
+          { "slot": "어빌1", "effect": "초기 보컬 증가" },
+          { "slot": "어빌2", "effect": "좋은 컨디션 상태에서 보컬 증가" },
+          { "slot": "어빌4", "effect": "보컬 레슨 종료 시 보컬 증가" },
+          { "slot": "어빌5", "effect": "SSR 보조 카드 이벤트 발생 시 보컬 증가" }
+        ]
+      },
+      "notes": ["실제 카드명 확정 전까지 임시 데이터"]
+    },
+    "limitBreak": {
+      "defaultSelectedLevel": 4,
+      "maxKnownLevel": 4,
+      "statScaleByLevel": { "0": 0.84, "1": 0.89, "2": 0.93, "3": 0.97, "4": 1 },
+      "snapshots": {
+        "4": {
+          "baseScore": 66,
+          "trainingBonus": { "vocal": 15, "dance": 0, "visual": 0, "mental": 4 },
+          "examBonus": { "vocal": 8, "dance": 0, "visual": 0 },
+          "tags": ["sense", "vocal-core", "good-condition"],
+          "synergyTags": ["sense", "vocal-core", "good-condition"],
+          "description": "좋은 컨디션 축의 보컬 운영을 보조하는 센스 SR 카드입니다."
+        }
+      }
+    }
+  }
+]

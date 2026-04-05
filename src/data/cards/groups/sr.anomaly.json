@@ -1,0 +1,125 @@
+[
+  {
+    "id": "sp-sr-gutsugutsu-ii-nioi",
+    "slug": "gutsugutsu-ii-nioi",
+    "names": { "ko": "보글보글, 좋은 냄새♪", "ja": "ぐつぐつ、いいにおい♪" },
+    "rarity": "SR",
+    "type": "mental",
+    "plan": "anomaly",
+    "image": { "thumbnailPath": "/support-cards/sp-sr-gutsugutsu-ii-nioi.svg", "alt": "보글보글, 좋은 냄새 카드 이미지" },
+    "source": { "defaultDataBasis": "max-breakthrough", "referenceUrls": ["https://seesaawiki.jp/gakumasu/d/%25A5%25B5%25A5%25DD%25A1%25BC%25A5%25C8%25A5%25AB%25A1%25BC%25A5%25C9%25C7%25BD%25CE%25CF%25C1%25E1%25B8%25AB%25C9%25BD"], "note": "빠른표 기반 샘플. 세부 문구는 추가 대조 예정" },
+    "raw": {
+      "wikiQuickReference": {
+        "typeLabel": "멘탈",
+        "planLabel": "어노말리",
+        "event1": { "reward": "커다란 냄비", "effect": "체력+8" },
+        "event2": "멘탈+15",
+        "event3": "어노말리 SR 스킬 카드 추가",
+        "abilities": [
+          { "slot": "어빌1", "effect": "초기 멘탈 증가" },
+          { "slot": "어빌2", "effect": "멘탈 스킬 카드 획득 시 회복 보조" },
+          { "slot": "어빌4", "effect": "시험 종료 시 멘탈 보조" },
+          { "slot": "어빌5", "effect": "체력 관련 행동 시 추가 보너스" }
+        ]
+      },
+      "notes": ["한국어 이름 반영", "세부 수치는 4돌 기준 근사치"]
+    },
+    "limitBreak": {
+      "defaultSelectedLevel": 4,
+      "maxKnownLevel": 4,
+      "statScaleByLevel": { "0": 0.84, "1": 0.89, "2": 0.93, "3": 0.97, "4": 1 },
+      "snapshots": {
+        "4": {
+          "baseScore": 66,
+          "trainingBonus": { "vocal": 2, "dance": 2, "visual": 2, "mental": 14 },
+          "examBonus": { "vocal": 1, "dance": 1, "visual": 1 },
+          "tags": ["anomaly", "recovery", "support"],
+          "synergyTags": ["anomaly", "recovery"],
+          "description": "체력과 멘탈 보조에 초점을 맞춘 어노말리 SR 카드입니다."
+        }
+      }
+    }
+  },
+  {
+    "id": "sp-sr-yureru-tejun",
+    "slug": "yureru-tejun",
+    "names": { "ko": "흔들리는 수순", "ja": "揺れる手順" },
+    "rarity": "SR",
+    "type": "dance",
+    "plan": "anomaly",
+    "image": { "thumbnailPath": "/support-cards/placeholder-card.svg", "alt": "흔들리는 수순 카드 이미지" },
+    "source": { "defaultDataBasis": "max-breakthrough", "referenceUrls": ["https://seesaawiki.jp/gakumasu/"], "note": "임시 입력. 본문 대조 필요" },
+    "raw": {
+      "wikiQuickReference": {
+        "typeLabel": "댄스",
+        "planLabel": "어노말리",
+        "event1": { "reward": "불안한 연습", "effect": "체력+6" },
+        "event2": "댄스+15",
+        "event3": "어노말리 SR 스킬 카드 추가",
+        "abilities": [
+          { "slot": "어빌1", "effect": "초기 댄스 증가" },
+          { "slot": "어빌2", "effect": "체력 감소 상태에서 댄스 증가" },
+          { "slot": "어빌4", "effect": "시험 종료 시 댄스 증가" },
+          { "slot": "어빌5", "effect": "불안정 상태 해제 시 보너스" }
+        ]
+      },
+      "notes": ["실제 카드명 확정 전까지 임시 데이터"]
+    },
+    "limitBreak": {
+      "defaultSelectedLevel": 4,
+      "maxKnownLevel": 4,
+      "statScaleByLevel": { "0": 0.84, "1": 0.89, "2": 0.93, "3": 0.97, "4": 1 },
+      "snapshots": {
+        "4": {
+          "baseScore": 65,
+          "trainingBonus": { "vocal": 0, "dance": 15, "visual": 0, "mental": 4 },
+          "examBonus": { "vocal": 0, "dance": 8, "visual": 0 },
+          "tags": ["anomaly", "dance-core", "risk-reward"],
+          "synergyTags": ["anomaly", "dance-core"],
+          "description": "리스크를 감수하는 대신 댄스 효율을 챙기는 어노말리 SR 카드입니다."
+        }
+      }
+    }
+  },
+  {
+    "id": "sp-sr-netsu-no-nokori",
+    "slug": "netsu-no-nokori",
+    "names": { "ko": "식지 않는 열기", "ja": "熱の残り" },
+    "rarity": "SR",
+    "type": "vocal",
+    "plan": "anomaly",
+    "image": { "thumbnailPath": "/support-cards/placeholder-card.svg", "alt": "식지 않는 열기 카드 이미지" },
+    "source": { "defaultDataBasis": "max-breakthrough", "referenceUrls": ["https://seesaawiki.jp/gakumasu/"], "note": "임시 입력. 본문 대조 필요" },
+    "raw": {
+      "wikiQuickReference": {
+        "typeLabel": "보컬",
+        "planLabel": "어노말리",
+        "event1": { "reward": "남은 울림", "effect": "보컬+15" },
+        "event2": "체력+4",
+        "event3": "어노말리 SR 스킬 카드 추가",
+        "abilities": [
+          { "slot": "어빌1", "effect": "초기 보컬 증가" },
+          { "slot": "어빌2", "effect": "체력 50% 이하에서 보컬 증가" },
+          { "slot": "어빌4", "effect": "시험 종료 시 보컬 증가" },
+          { "slot": "어빌5", "effect": "체력 회복 시 보컬 보조" }
+        ]
+      },
+      "notes": ["실제 카드명 확정 전까지 임시 데이터"]
+    },
+    "limitBreak": {
+      "defaultSelectedLevel": 4,
+      "maxKnownLevel": 4,
+      "statScaleByLevel": { "0": 0.84, "1": 0.89, "2": 0.93, "3": 0.97, "4": 1 },
+      "snapshots": {
+        "4": {
+          "baseScore": 65,
+          "trainingBonus": { "vocal": 15, "dance": 0, "visual": 0, "mental": 4 },
+          "examBonus": { "vocal": 8, "dance": 0, "visual": 0 },
+          "tags": ["anomaly", "vocal-core", "risk-reward"],
+          "synergyTags": ["anomaly", "vocal-core"],
+          "description": "체력 관리와 보컬 고점을 같이 노리는 어노말리 SR 카드입니다."
+        }
+      }
+    }
+  }
+]

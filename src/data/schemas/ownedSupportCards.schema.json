@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "ownedSupportCards.schema.json",
+  "title": "OwnedSupportCardsUpload",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "cards"],
+  "properties": {
+    "version": { "type": "integer", "const": 1 },
+    "cards": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["cardId", "owned", "limitBreakLevel"],
+        "properties": {
+          "cardId": { "type": "string" },
+          "owned": { "type": "boolean" },
+          "limitBreakLevel": { "type": "integer", "enum": [0, 1, 2, 3, 4] },
+          "notes": { "type": "string" }
+        }
+      }
+    }
+  }
+}

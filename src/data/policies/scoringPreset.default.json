@@ -1,6 +1,6 @@
 {
   "id": "scoring-default",
-  "name": "Default Scoring Preset",
+  "name": "기본 점수 프리셋",
   "baseCardWeight": 1,
   "trainingWeight": 1.25,
   "examWeight": 1,

@@ -1,7 +1,7 @@
 {
   "id": "stage-default",
-  "name": "Default Produce Stage",
-  "description": "Balanced stage used by the MVP baseline preset.",
+  "name": "기본 프로듀스 스테이지",
+  "description": "MVP 기본 프리셋에서 사용하는 균형형 스테이지입니다.",
   "weights": {
     "vocal": 1,
     "dance": 1,
